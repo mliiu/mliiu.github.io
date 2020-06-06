@@ -1,0 +1,1787 @@
+
+
+body{
+  background-color: white!important;
+  margin:0px;
+  idth:100%;
+  text-decoration:none !important;
+  font-family: 'Quicksand', serif;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color:salmon;
+   margin-right:-15%;
+   margin-left:-15%;
+}
+
+.carousel-control.right:hover {
+  color:gray;
+}
+
+.carousel-control.left:hover{
+  color:gray;
+}
+
+#vertical-text {
+    transition-duration:6s;
+-webkit-transform: rotate(-90deg);
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  background: #E8E8E8;
+  border: 2px solid #000;
+}
+
+
+#footer2{
+  transition-duration:12s;
+  width: 30%;
+  height:100%;
+	top: 30%;
+  left:0%;
+	font-size: 16.4px;
+  position:fixed;
+  color:blue;
+  opacity:0.7;
+  z-index:-1;
+  font-family: 'mada',
+    serif;
+
+}
+#footer2:hover{
+  color:yellow;
+  text-decoration: underline;
+   -webkit-text-decoration-color: #EDAFB5;
+   text-decoration-color: #EDAFB5;
+   -webkit-text-decoration-style: wavy;
+   text-decoration-style: wavy;
+   transition:0.2s;
+}
+
+u:hover{
+  text-decoration:none;
+}
+a:link {
+  color: #fff4f0;
+  text-decoration:none;
+  	overflow: hidden;
+}
+
+a:link:hover{
+  color: yellow;
+  text-decoration: underline;
+   -webkit-text-decoration-color: blue;
+   text-decoration-color: blue;
+   -webkit-text-decoration-style: wavy  !important;
+   text-decoration-style: wavy !important;
+     transition:0.4s;
+     z-index:1;
+     cursor: url('http://cur.cursors-4u.net/symbols/sym-1/sym57.cur'), auto;
+
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2.5vw;
+	line-height: 48px;
+  font-family: 'mada',
+    serif;
+	overflow: hidden;
+}
+
+.box span {
+	display: inline-block;
+	color: blue;
+	transition: 0.5s;
+}
+
+.box span:nth-child(odd) {
+	transform: translateY(-100%);
+}
+
+.box span:nth-child(even) {
+	transform: translateY(100%);
+}
+
+.box span::before {
+	content: attr(data-text);
+	position: absolute;
+  font-family:"mada";
+	color: tan;
+}
+
+.box span:nth-child(odd)::before {
+	transform: translateY(100%);
+}
+
+.box span:nth-child(even)::before {
+	transform: translateY(-100%);
+}
+
+.box:hover span {
+	transform: translateY(0);
+}
+
+#navbar {
+  transition-duration: 12s;
+  position:fixed;
+  z-index:-1;
+  top:34%;
+  right:1%;
+  width:15%;
+  color:blue;
+  font-size: 1.09vw;
+  font-family: 'mada', serif;
+}
+.sticky{
+  position:absolute;
+}
+
+
+#navbar:hover{
+  transition:0.4s;
+}
+
+#wrapper .text {
+position:absolute;
+left:15%;
+margin-top:-15%;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+
+}
+
+
+
+header{
+  margin: auto;
+  position: relative;
+  width: 30%;
+  height: 20%;
+  margin-bottom:200px;
+
+}
+
+
+nav{
+  position: absolute;
+  margin-top: 25px;
+  margin-left:-30.5%;
+  width: 220%;
+  height: 22%;
+  float:center;
+  z-index:0;
+}
+
+
+.links{
+  margin-left: 11%;
+  position:auto;
+  height: 170%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  -webkit-transition: background-color 0.5s, margin top: 0.5s;
+  transition: background-color 0.5s, margin-top 0.5s;
+  font-family: 'mada', serif;
+}
+
+.links:hover{
+  margin-top: -18px;
+}
+
+#bgblue{
+   display:block;
+   overflow:hidden;
+   height:33vw;
+   width:105.5vw;
+  background-color:#0A1B29;
+  position:absolute;
+  left:-70%;
+  z-index:-1;
+}
+#Titles{
+  position:auto;
+  width:230%;
+  font-family: 'mada', bold,serif;
+  font-size: 2vw;
+  color: blue;
+  text-align:center;
+  margin-left:-65%;
+}
+#Title2{
+  position:auto;
+  width:230%;
+  float:center;
+  font-family: 'mada', bold,serif;
+  font-size: 2vw;
+  color: blue;
+  text-align: center;
+  margin-left:-64%;
+}
+#logo{
+  position: auto;
+  height: 11%;
+  width: 70%;
+  margin-top:12%;
+  text-align: center;
+  float:center;
+  padding-bottom: 16%;
+  padding-left: 25%;
+  font-size: 3vw;
+  font-weight:bolder;
+  font-family: 'amiri', bold,serif;
+  color:#342C2E;
+}
+
+#blurb{
+  position:absolute;
+  display:inline;
+  font-family: 'amiri', serif;
+  border-style:dotted;
+  border-color:blue;
+  opacity:0.5;
+  font-size:1.2vw;
+  float:left;
+  width: 105%;
+  max-width:55%;
+  margin-top:25%;
+  margin-bottom:-30%;
+  margin-left:-27%;
+}
+
+#misc{
+  position:relative;
+  display:inline;
+  float:left;
+  width: 160%;
+  margin-top:40%;
+  margin-left:4%;
+}
+
+#misc:hover{
+   opacity:0.6;
+}
+#container{
+  margin: auto;
+  position: absolute;
+  width: 50%;
+  height: 700px;
+}
+
+.fullWidthbackground{
+  position:absolute;
+  display:block;
+  margin-left:5%;
+  background-image: url("https://i.ibb.co/7QgJZLw/Screen-Shot-2020-04-03-at-9-11-23-PM.jpg");
+  background-color:white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:30vw;
+  width:90%;
+  max-height:76%;
+  margin-top:-10%;
+  z-index:0;
+}
+.fullWidth{
+   display:inline;
+  width:175%;
+  position:absolute;
+  margin-left: 9.8%;
+  margin-top: -14%;
+  z-index:0 !important;
+  float: left;
+  text-align:center;
+  font-family: 'amiri', sans-serif;
+  font-size:4.2vw;
+  animation: fadeIn ease 8s;
+  -webkit-animation: fadeIn ease 8s;
+  }
+
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+
+.column0{
+  display:inline;
+  z-index:99;
+  float: left;
+  width: 41%;
+  margin-top:-14%;
+  margin-left:29%;
+  font-family: 'Amiri', serif;
+text-decoration: none!important;
+}
+
+.column{
+  float: left;
+  width: 41%;
+  margin-top:20px;
+  margin-left:30%;
+  text-align:center;
+  font-family: 'amiri', serif;
+  text-decoration: none!important;
+
+
+}
+
+
+arrrow{
+  position:relative;
+  display:inline-block;
+  width: 30px;
+  height: 10px;
+  margin-left:48%;
+  margin-top:14.5%;
+}
+
+arrrow:after,
+arrrow:before{
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+arrrow:after,
+arrrow:before{
+    display:block;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border-width: 0 0 4px 4px;
+  border-style: solid;
+  font-family: sans-serif;
+  border-color: black;
+  -webkit-animation: fadeIn ease 13s;
+}
+arrrow:after,
+arrrow:before{
+  content:"";
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+}
+
+arrrow:before{
+  right: -10px;
+  top: 1.4px;
+}
+
+arrrow{
+  -webkit-animation: scroll 1.4s ease-out infinite forwards;
+  -moz-animation: scroll 1.4s ease-out infinite forwards;
+  animation: scroll 1.4s ease-out infinite forwards;
+}
+
+  @-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+.pict{
+  margin-left:-13%;
+}
+
+.column2{
+  float: left;
+  width: 49%;
+  margin-top:10px;
+  margin-left: 25.6%;
+  text-align:center;
+  font-family: 'amiri', serif;
+}
+
+}
+#container2{
+  margin: auto;
+  position: absolute;
+  width: 46%;
+  height: 66%;
+  background-color:white;
+}
+
+
+.columnx {
+  display:grid;
+  float: left;
+  width: 40%;
+  padding:2.1%;
+  padding-bottom:2.5%;
+  margin-left:13.5%;
+  margin-right:-14%;
+  margin-top:-7%;
+  margin-bottom:8%;
+}
+
+
+.columnx:hover{
+   transform: scale(1.05);
+}
+
+
+#photo{
+  position:relative;
+  margin-left:-93%;
+  margin-top:-19%;
+  width:75%;
+  height:75%;
+  border-style:solid;
+  border-radius:3px;
+  border-color:yellow;
+}
+
+#photo:hover{
+  opacity:0.5px;
+  border-style:solid;
+  border-color:blue;
+}
+
+#photo2{
+  position:relative;
+  index:1;
+  margin-left:-40%;
+  margin-top:-13%;
+  width:95%;
+  height: 95%;
+
+}
+
+#photo2:hover{
+  transform:scale(0.9);
+  transition:0.5s;
+  border-style:solid;
+  border-color:pink;
+  border-radius:3px;
+
+}
+
+#photo3{
+  margin-left:-95%;
+  margin-top:-15%;
+  width:55%;
+  height:2%;
+  position:absolute;
+  border-style:double;
+  border-color:blue;
+  border-radius:4px;
+}
+
+#photo3:hover{
+  transform:scale(0.9);
+  transition:0.5s;
+  border-style:solid;
+  border-color:yellow;
+  border-radius:3px;
+  transition:0.4s;
+  transform: rotate(-15deg);
+
+}
+
+#about{
+  position:inherit;
+  display:inline-inline-block;
+  margin-left:-6%;
+  margin-top:-167%;
+  width:114%;
+  height:9%;
+  font-size:1.3vw;
+  font-family:'Amiri', serif;
+}
+
+.flower{
+  width:48%;
+  margin-top:-21%;
+  fill:#fcceb3;
+  margin-left:-65.7%;
+  position:absolute;
+  display:inline-block;
+}
+.flower:hover{
+  transform:rotate(-70deg);
+  transition:0.6s;
+  fill:white;
+}
+
+.bored{
+   display:inline;
+  width:32.4%;
+  bottom:-22.9%;
+  fill:#fcceb3;
+  margin-left:70%;
+  margin-top:-10%;
+  position:relative;
+  z-index:1;
+}
+
+
+
+.bored:hover{
+  transition:0.4s;
+  transform:rotate(45deg);
+  opacity:0.4;
+}
+
+.bored2{
+  width:100.4%;
+  bottom:-22.9%;
+  fill:blue;
+  margin-left:105%;
+  position:absolute;
+  top:3.5%;
+}
+
+.bored2:hover{
+  transition:0.4s;
+  transform: rotate(45deg);
+  opacity:0.4;
+  fill:limegreen;
+}
+
+.illus{
+  width:60%;
+  bottom:-19%;
+  left:98%;
+  position:absolute;
+  animation: draw 10000ms ease-in-out;
+}
+
+.illus:hover{
+  opacity:0.5;
+  fill:green;
+  transform:scale(1.1);
+  transition:0.6s;
+}
+
+#container3{
+  display:inline;
+  margin: auto;
+  position: absolute;
+  width: 50%;
+  height: 46%;
+  margin-left:136%;
+  margin-top:-15%;
+}
+
+.graph{
+  margin-left:-61%;
+}
+.carousel{
+  position:relative;
+  font-family: 'Amiri', serif;
+  float: center;
+  width: 152%;
+  margin-top:-20%;
+  margin-left: -25.5%;
+  margin-bottom:17%;
+  text-align:center;
+  position:absolute;
+
+}
+
+.myButton {
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #a7eb41;
+	display:inline-block;
+	cursor:pointer;
+  text-decoration-color: gray;
+	padding:11px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:lightyellow;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 10px;
+	bottom: 10px;
+	width: 100%;
+	height: 100%;
+	background:#E5BFC3;
+	color: white;
+	padding: 15px;
+  border-style:solid;
+  border-width:2px;
+  border-color:#E5BFC3;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 0.97;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 24px;
+  font-family: 'amiri', serif;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 14px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+
+#mydiv {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv2text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv2text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'amiri', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv2text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv2 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader2 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv3 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader3 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv3text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv3text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Amiri', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv3text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv4 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader4 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv4text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv4text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv4text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv5 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader5 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv5text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv5text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv5text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv6 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader6 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv6text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv6text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv6text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv7 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader7 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv7text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv7text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv7text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv8 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader8 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv8text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv8text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv8text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv9 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader9 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv9text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv9text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv9text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv10 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+
+#mydivheader10 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv10text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv10text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv10text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+
+#mydiv11 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader11 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv11text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv11text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv11text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv12 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader12 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv12text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv12text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv12text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+
+#mydiv13 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader13 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+/* Parent Container */
+.mydiv13text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv13text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv13text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv14 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader14 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv14text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv14text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv14text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv15 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader15 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+/* Parent Container */
+.mydiv15text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv15text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv15text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv16 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader16 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv16text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv16text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv16text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv17 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader17 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv17text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv17text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv17text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv18 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader18 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv18text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv18text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv18text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv19 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader19 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv19text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv19text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv19text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv20 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader20 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv20text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv20text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv20text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv21 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader21 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+/* Parent Container */
+.mydiv21text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv21text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv21text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+#mydiv22 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader22 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv22text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv22text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv22text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+
+#mydiv23 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader23 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv23text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv23text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv23text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+
+
+#mydiv24 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#mydivheader24 {
+    padding: 0px;
+    cursor: move;
+    z-index: 10;
+}
+
+/* Parent Container */
+.mydiv24text{
+ position: relative;
+ width: 100%;
+ height: 20%;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.mydiv24text div{
+ position: absolute;
+ bottom: 45%;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 1px;
+font-family: 'Goudy Bookletter 1911', serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+
+.mydiv24text:hover div{
+ width: 100%;
+ padding: 1px 12px;
+ visibility: visible;
+ opacity: 0.9;
+}
+
+
+
+#canvas {
+  display: block;
+  position:absolute;
+  width: 340%;
+  margin-left:-140%;
+  margin-top:-10%;
+  height: 25%;
+}
+
+#bgblue2{
+  display:inline;
+  background-size: contain;
+  height:32vw;
+  width:105vw;
+  overflow-x: hidden;
+  background-color:#000EC7;
+  position:absolute;
+  left:-120%;
+  z-index:-1000;
+}
+
+#bgpink{
+    display:inline-block;
+    overflow:hidden;
+    position:absolute;
+  height:18.5vw;
+  width:44vw;
+  background-color:#ffebe7;
+  position:absolute;
+  left:20%;
+  border-style: double;
+  border-color:hotpink;
+  z-index:-10 !important;
+}
+
+#fjord{
+  position:relative;
+  font-family:mada;
+  margin-left:-50%;
+
+}
