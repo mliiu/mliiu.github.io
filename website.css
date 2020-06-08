@@ -1,4 +1,15 @@
-
+@font-face {
+  font-family: Nantes;
+  src: url(NantesTrial-Light.otf);
+}
+@font-face {
+  font-family: object;
+  src: url(ObjectSans-Regular.otf);
+}
+@font-face {
+  font-family: savate;
+  src: url(savate-regular.otf);
+}
 
 body{
   background-color: white!important;
@@ -95,14 +106,14 @@ a:link:hover{
 }
 
 .box {
-	width: 100%;
+	width: 110%;
 	height: 100%;
 	text-align: center;
-	font-size: 2.5vw;
-	line-height: 48px;
-  font-family: 'mada',
-    serif;
+	font-size: 1.8vw;
+	line-height: 22px;
+  font-family: 'savate';
 	overflow: hidden;
+  text-align:left;
 }
 
 .box span {
@@ -122,8 +133,8 @@ a:link:hover{
 .box span::before {
 	content: attr(data-text);
 	position: absolute;
-  font-family:"mada";
-	color: tan;
+  font-family:"amiri";
+	color: #f2af1d;
 }
 
 .box span:nth-child(odd)::before {
@@ -311,7 +322,8 @@ nav{
   z-index:0 !important;
   float: left;
   text-align:center;
-  font-family: 'amiri', sans-serif;
+  font-family: "amiri";
+  font-weight:lighter;
   font-size:4.2vw;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
@@ -451,7 +463,7 @@ arrrow{
 #photo{
   position:relative;
   margin-left:-93%;
-  margin-top:-19%;
+  margin-top:-15%;
   width:75%;
   height:75%;
   border-style:solid;
@@ -466,21 +478,23 @@ arrrow{
 }
 
 #photo2{
-  position:relative;
+  position:absolute;
   index:1;
-  margin-left:-40%;
-  margin-top:-13%;
-  width:95%;
-  height: 95%;
+  margin-left:107%;
+  margin-top:-26%;
+  width:26vw;
+  height:18vw;
+  border-style:solid;
+  border-color:pink;
+  border-radius:3px;
 
 }
 
 #photo2:hover{
   transform:scale(0.9);
   transition:0.5s;
-  border-style:solid;
-  border-color:pink;
-  border-radius:3px;
+  border-color:yellow;
+
 
 }
 
@@ -508,10 +522,10 @@ arrrow{
 
 #about{
   position:inherit;
-  display:inline-inline-block;
+  display:block;
   margin-left:-6%;
-  margin-top:-167%;
-  width:114%;
+  margin-top:-115%;
+  width:125%;
   height:9%;
   font-size:1.3vw;
   font-family:'Amiri', serif;
@@ -567,29 +581,20 @@ arrrow{
 }
 
 .illus{
-  width:60%;
-  bottom:-19%;
-  left:98%;
   position:absolute;
+  width:16vw;
+  bottom:11%;
+  left:75%;
   animation: draw 10000ms ease-in-out;
 }
 
 .illus:hover{
   opacity:0.5;
-  fill:green;
+  fill:#88e220;
   transform:scale(1.1);
   transition:0.6s;
 }
 
-#container3{
-  display:inline;
-  margin: auto;
-  position: absolute;
-  width: 50%;
-  height: 46%;
-  margin-left:136%;
-  margin-top:-15%;
-}
 
 .graph{
   margin-left:-61%;
