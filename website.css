@@ -708,7 +708,7 @@ arrrow{
     position: absolute;
     z-index: 10;
     text-align: center;
-    width:180%;
+    width:120%;
 }
 
 #mydivheader {
@@ -1881,8 +1881,12 @@ font-family: 'Goudy Bookletter 1911', serif;
   }
   .fullWidthbackground{
     width:90%;
-    top:30%;
+    top:29%;
     height:70%;
+  }
+  #mydiv{
+    width:200%;
+    margin-left:-42%;
   }
   .fullWidth{
     top:-11%;
