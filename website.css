@@ -1892,16 +1892,17 @@ font-family: 'Goudy Bookletter 1911', serif;
   }
   .column0{
     margin-top:-17%;
-    width:80%;
+    width:74%;
     font-size:12px;
     margin-left:11%;
   }
 .column2{
-  width:75%;
-  margin-left:19%;
+  width:65%;
+  margin-left:16%;
 }
 .column{
-  width:75%;
+  width:70%;
+  margin-left:15%;
 }
   arrrow{
     margin-top:210px;
