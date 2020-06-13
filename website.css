@@ -1976,8 +1976,8 @@ font-family: 'Goudy Bookletter 1911', serif;
   font-size:13px;
 }
 .myButton{
-  width:300px;
-  margin-left:-50%;
+  width:290px;
+  margin-left:-60%;
 }
 
 #bgpink{
@@ -1993,6 +1993,9 @@ audio{
   top:40%;
 }
 
+#fjord2{
+  margin-top:30%;
+}
 
 
 }
