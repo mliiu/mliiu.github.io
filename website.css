@@ -650,6 +650,24 @@ arrrow{
 	top:1px;
 }
 
+
+.myButton1 {
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #a7eb41;
+	display:inline-block;
+	cursor:pointer;
+  text-decoration-color: gray;
+	padding:11px 31px;
+	text-decoration:none;
+}
+.myButton1:hover {
+	background-color:lightyellow;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
@@ -1982,7 +2000,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-top:-30%;
   font-size:13px;
 }
-.myButton{
+.myButton1{
   width:290px;
   margin-left:-65%;
 }
@@ -2037,5 +2055,9 @@ display:none;
   font-size:11px;
   width:250px;
   margin-left:-17%;
+}
+
+#myCarousel{
+  margin-top:-60%;
 }
 }
