@@ -2005,7 +2005,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-left:-65%;
 }
 .myButton{
-  margin-left:-10%;
+  margin-left:-5%;
 }
 
 #bgpink{
@@ -2076,9 +2076,9 @@ pict{
 }
 
 #Titles{
-  width:300%;
-  margin-left:-100%;
-  font-size:16px;
+  width:250%;
+  margin-left:-75%;
+  font-size:22px;
 }
 
 }
