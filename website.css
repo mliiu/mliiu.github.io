@@ -1945,5 +1945,11 @@ font-family: 'Goudy Bookletter 1911', serif;
  right: 35px;
  }
 
+.columnx{
+  margin-top:-50%;
+  width:125%;
+  padding:25%;
+  margin-left:-12%;
+}
 
 }
