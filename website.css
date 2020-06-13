@@ -257,7 +257,7 @@ header{
 #logo{
   position: auto;
   height: 40%;
-  width: 10%;
+  width: 70%;
   margin-top:12%;
   text-align: center;
   padding-bottom: 16%;
@@ -1868,7 +1868,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 1px) {
+@media only screen and (max-width: 600px) and (min-width: 1px) {
   #logo{
     font-size:30px;
     margin-top:30%;
