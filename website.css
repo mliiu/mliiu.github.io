@@ -462,6 +462,19 @@ arrrow{
 }
 
 
+.columny{
+  display:grid;
+  float: left;
+  width: 40%;
+  padding:2.1%;
+  padding-bottom:2.5%;
+  margin-left:13.5%;
+  margin-right:-14%;
+  margin-top:-7%;
+  margin-bottom:8%;
+}
+
+
 .columnx:hover{
    transform: scale(1.05);
 }
@@ -1951,5 +1964,35 @@ font-family: 'Goudy Bookletter 1911', serif;
   padding:24%;
   margin-left:-14%;
 }
+
+#test1{
+  width:300%;
+  margin-left:-97%;
+  margin-top:-15%;
+}
+
+#fjord{
+  margin-top:-30%;
+  font-size:13px;
+}
+.myButton{
+  width:300px;
+  margin-left:-50%;
+}
+
+#bgpink{
+  height:120px;
+  margin-top:5%;
+}
+
+iframe{
+  height:140px;
+}
+audio{
+  width:70%;
+  top:40%;
+}
+
+
 
 }
