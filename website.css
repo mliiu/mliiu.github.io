@@ -262,7 +262,7 @@ header{
   margin-top:12%;
   text-align: center;
   padding-bottom: 16%;
-  margin-left: -55%;
+  margin-left: -56%;
   font-size: 2.5vw;
   font-weight:bolder;
   font-family: 'amiri', bold,serif;
@@ -1892,13 +1892,16 @@ font-family: 'Goudy Bookletter 1911', serif;
   }
   .column0{
     margin-top:-17%;
-    width:74%;
+    width:80%;
     font-size:12px;
     margin-left:11%;
   }
 .column2{
-  width:60%;
+  width:75%;
   margin-left:19%;
+}
+.column{
+  width:85%;
 }
   arrrow{
     margin-top:210px;
