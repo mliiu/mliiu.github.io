@@ -1960,15 +1960,22 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 .columnx{
   margin-top:-55%;
-  width:125%;
+  width:130%;
   padding:25%;
-  margin-left:-13%;
+  margin-left:-15%;
+
 }
 
 #test1{
   width:300%;
   margin-left:-97%;
-  margin-top:-15%;
+  margin-top:-10%;
+}
+
+#test2{
+  width:300%;
+  margin-left:-97%;
+  margin-top:-75%;
 }
 
 #fjord{
@@ -1977,7 +1984,7 @@ font-family: 'Goudy Bookletter 1911', serif;
 }
 .myButton{
   width:290px;
-  margin-left:-60%;
+  margin-left:-65%;
 }
 
 #bgpink{
@@ -1990,11 +1997,11 @@ iframe{
 }
 audio{
   width:70%;
-  top:40%;
+
 }
 
 #fjord2{
-  margin-top:30%;
+  margin-top:2%;
 }
 
 
