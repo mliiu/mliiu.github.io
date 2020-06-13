@@ -2075,5 +2075,10 @@ pict{
   width:300%;
 }
 
+#Titles{
+  width:300%;
+  margin-left:-100%;
+  font-size:16px;
+}
 
 }
