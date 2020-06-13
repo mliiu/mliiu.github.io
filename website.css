@@ -2004,6 +2004,9 @@ font-family: 'Goudy Bookletter 1911', serif;
   width:290px;
   margin-left:-65%;
 }
+.myButton{
+  margin-left:-40%;
+}
 
 #bgpink{
   height:120px;
