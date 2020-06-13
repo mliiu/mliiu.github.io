@@ -2004,5 +2004,27 @@ audio{
   margin-top:2%;
 }
 
+#Title2{
+  width:200%;
+  font-size:18px;
+  margin-left:-45%;
+  margin-top:-25%;
+}
 
+.bored2{
+  width:160px;
+}
+
+#photo3{
+  width:90px;
+  height:70px;
+  margin-top:20%;
+  margin-left:-105%;
+}
+
+#mtext{
+  width:300px;
+  font-size:15px;
+  margin-left:-12%;
+  margin-top:-30%;
 }
