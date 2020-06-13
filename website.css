@@ -1897,7 +1897,11 @@ font-family: 'Goudy Bookletter 1911', serif;
     margin-left:11%;
   }
 .column2{
-  width:60%;
+  width:65%;
+  margin-left:19%;
+}
+.column{
+  width:65%;
   margin-left:19%;
 }
   arrrow{
