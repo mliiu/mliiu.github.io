@@ -17,8 +17,9 @@ $(document).ready(function() {
 </script>
 
 <head>
-  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
   <meta property="og:title" content="Maggie Liu">
 <meta property="og:description" content="〰️">
 <meta property="og:url" content="http://www.m-liu.com">
@@ -29,8 +30,8 @@ $(document).ready(function() {
     <meta charset="UTF-8">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
 </head>
 <body>
   <header>
@@ -41,19 +42,20 @@ overflow-x: hidden;
 
     }
     </style>
-
     <div id="logo">
       <div class="w3-container w3-center w3-animate-opacity">
         <div id="mydiv">
           <div id="mydivheader">
             <a id="TopofPage">
         <center>Maggie Liu</center>
+        </a>
       </div>
     </div>
       </div>
     </div>
 
-        <nav>
+
+        <div class="nav">
           <div class="links">
             <a href="index.html" style="color:#f2af1d">Home</a>
           </div>
@@ -64,21 +66,32 @@ overflow-x: hidden;
             <a href="misc.html" style="color:#E4ADE2">Misc</a>
           </div>
           <div class="links">
-            <a href="contact.html" style="color:#45d2f0">About</a>
+            <a href="about.html" style="color:#45d2f0">About</a>
           </div>
-          </a>
-        </nav>
+        </div>
 
+<div id="menu-toggle" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
+  <div class="overlay-content">
+            <a href="index.html" style="color:#f2af1d;font-size:34px;">Home</a>
+            <a href="Portfolio.html" style="color:#88e220;font-size:34px";>Portfolio</a>
+            <a href="misc.html"style="color:#E4ADE2;font-size:34px">Misc</a>
+            <a href="about.html"style="color:#45d2f0;font-size:34px">About</a>
+          </div>
+        </div>
 
-
+<div class="menu-toggle">
+<span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
 
   </header>
+
 
   <div class="fullWidthbackground" data-aos-delay="fadein"></div>
 
   <div id="container">
     <div class="fullWidth" data-aos="slide-up">
-  &nbsp;&nbsp;A resourceful </h5>and curious individual applying<br>&nbsp;&nbsp; <a href="null">strategy</a>, <a href="null">design-thinking</a>, and <a href="null">user research</a> to understand complex problems&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </h5>lorem ipsum text obama individual applying<br>&nbsp;&nbsp; <a href="null">strategy</a>, <a href="null">design-thinking</a>, and <a href="null">user research</a> text obama text
 </div></div>
 
 <arrrow></arrrow>
@@ -176,7 +189,7 @@ overflow-x: hidden;
 
     <div class="column0" data-aos="fade-up">
       <a id="Education">
-        <center><img src="https://i.imgur.com/FyOConq.png" width=35px height=30px/><font size=5.5vw font face="mada"><strong>Education</strong></font></center>
+        <center><img src="https://i.imgur.com/FyOConq.png" width=35px height=30px><font size=5.5vw font face="mada"><strong>Education</strong></font></center>
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <br><strong><span id="left">University of Southern California</span></strong><span id="right">2015-Spring 2019</span>
         <br><font size=2vw>B.S., Business Administration, Cinematic Arts Minor</font>
@@ -216,7 +229,7 @@ overflow-x: hidden;
 
     <div class="column" data-aos="fade-up">
     <a id="Experience">
-    <center><img src="https://i.imgur.com/wsuPzBk.png" width=30px height=35px/><font size="5.5vw" font face="mada"><strong>Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></center>
+  <br>  <center><img src="https://i.imgur.com/wsuPzBk.png" width=30px height=35px/><font size="5.5vw" font face="mada"><strong>Experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></font></center>
 <br>
 
 <u><strong><font size="5px"><a href="https://www.optimizely.com/" target="_blank"  style="color:black">Optimizely</a></font></u>
@@ -331,6 +344,15 @@ AOS.init({
 
 </body>
 
+<script>
+function openNav() {
+  document.getElementById("menu-toggle").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("menu-toggle").style.width = "0%";
+}
+</script>
 
 <script>
 //Make the DIV element draggagle:
@@ -395,4 +417,8 @@ function myFunction() {
 
 
 
-<html>
+
+
+
+
+</html>

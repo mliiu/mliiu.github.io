@@ -10,6 +10,8 @@
            <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
 <body>
   <header>
@@ -22,21 +24,36 @@
     </div>
       </div>
     </div>
-        <nav>
-          <div class="links">
-            <a href="index.html" style="color:#f2af1d">Home</a>
-          </div>
-          <div class="links">
-            <a href="Portfolio.html" style="color:#88e220">Portfolio</a>
-          </div>
-          <div class="links">
-            <a href="misc.html" style="color:#E4ADE2">Misc</a>
-          </div>
-          <div class="links">
-            <a href="contact.html" style="color:#45d2f0">About</a>
-          </div>
-          </a>
-        </nav>
+
+    <div class="nav">
+      <div class="links">
+        <a href="index.html" style="color:#f2af1d">Home</a>
+      </div>
+      <div class="links">
+        <a href="Portfolio.html" style="color:#88e220">Portfolio</a>
+      </div>
+      <div class="links">
+        <a href="misc.html" style="color:#E4ADE2">Misc</a>
+      </div>
+      <div class="links">
+        <a href="about.html" style="color:#45d2f0">About</a>
+      </div>
+    </div>
+
+
+    <div id="menu-toggle" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
+      <div class="overlay-content">
+                <a href="index.html" style="color:#f2af1d;font-size:34px;">Home</a>
+                <a href="Portfolio.html" style="color:#88e220;font-size:34px";>Portfolio</a>
+                <a href="misc.html"style="color:#E4ADE2;font-size:34px">Misc</a>
+                <a href="about.html"style="color:#45d2f0;font-size:34px">About</a>
+              </div>
+            </div>
+
+            <div class="menu-toggle">
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
 </div>
 <br><br>
 <br><br>
@@ -141,6 +158,14 @@
     easing: 'ease-in-quad',
   });
   </script>
+  <script>
+  function openNav() {
+    document.getElementById("menu-toggle").style.width = "100%";
+  }
 
+  function closeNav() {
+    document.getElementById("menu-toggle").style.width = "0%";
+  }
+  </script>
 </body>
 <html>

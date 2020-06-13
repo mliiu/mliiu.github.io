@@ -17,6 +17,8 @@ $(document).ready(function() {
 </script>
 
 <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maggie Liu</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -39,21 +41,35 @@ $(document).ready(function() {
     </div>
       </div>
     </div>
-        <nav>
-          <div class="links">
-            <a href="index.html" style="color:#f2af1d">Home</a>
-          </div>
-          <div class="links">
-            <a href="Portfolio.html" style="color:#88e220">Portfolio</a>
-          </div>
-          <div class="links">
-            <a href="misc.html" style="color:#E4ADE2">Misc</a>
-          </div>
-          <div class="links">
-            <a href="contact.html" style="color:#45d2f0">About</a>
-          </div>
-          </a>
-        </nav>
+
+    <div class="nav">
+      <div class="links">
+        <a href="index.html" style="color:#f2af1d">Home</a>
+      </div>
+      <div class="links">
+        <a href="Portfolio.html" style="color:#88e220">Portfolio</a>
+      </div>
+      <div class="links">
+        <a href="misc.html" style="color:#E4ADE2">Misc</a>
+      </div>
+      <div class="links">
+        <a href="about.html" style="color:#45d2f0">About</a>
+      </div>
+    </div>
+
+    <div id="menu-toggle" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
+      <div class="overlay-content">
+                <a href="index.html" style="color:#f2af1d;font-size:34px;">Home</a>
+                <a href="Portfolio.html" style="color:#88e220;font-size:34px";>Portfolio</a>
+                <a href="misc.html"style="color:#E4ADE2;font-size:34px">Misc</a>
+                <a href="about.html"style="color:#45d2f0;font-size:34px">About</a>
+              </div>
+            </div>
+
+    <div class="menu-toggle">
+    <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
 
   </header>
 
@@ -221,6 +237,14 @@ $(document).ready(function() {
 
 
   </div>
+  <script>
+  function openNav() {
+    document.getElementById("menu-toggle").style.width = "100%";
+  }
 
+  function closeNav() {
+    document.getElementById("menu-toggle").style.width = "0%";
+  }
+  </script>
 </body>
 <html>
