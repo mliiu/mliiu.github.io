@@ -2007,7 +2007,7 @@ audio{
 #Title2{
   width:200%;
   font-size:18px;
-  margin-left:-45%;
+  margin-left:-40%;
   margin-top:-25%;
 }
 
@@ -2016,15 +2016,12 @@ audio{
 }
 
 #photo3{
-  width:90px;
-  height:70px;
-  margin-top:20%;
-  margin-left:-105%;
+display:none;
 }
 
 #mtext{
   width:300px;
   font-size:15px;
-  margin-left:-12%;
+  margin-left:-20%;
   margin-top:-30%;
 }
