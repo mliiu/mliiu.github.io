@@ -1920,7 +1920,7 @@ font-family: 'Goudy Bookletter 1911', serif;
     margin-left:-42%;
   }
   .fullWidth{
-    top:-8%;
+    top:-14%;
     font-size: 7.2vw;
     text-align:center;
     padding:20px;
@@ -1940,7 +1940,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-left:16%;
 }
   arrrow{
-    margin-top:194px;
+    margin-top:150px;
     margin-left:45%;
   }
   .flower{
@@ -1951,7 +1951,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   .bored{
     width:50%;
     margin-left:56%;
-    margin-top:-9%;
+    margin-top:-6%;
   }
   .nav{
     display:none;
