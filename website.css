@@ -315,7 +315,7 @@ header{
   background-size:cover;
   height:390px;
   width:1150px;
-  max-height:76%;
+  max-height:78%;
   margin-top:-10%;
   z-index:0;
 }
@@ -372,7 +372,7 @@ arrrow{
   width: 30px;
   height: 10px;
   margin-left:48%;
-  margin-top:15.5%;
+  margin-top:15.9%;
 }
 
 arrrow:after,
@@ -1900,7 +1900,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   }
 }
 
-@media only screen and (max-width: 550px) and (min-width: 1px) {
+@media only screen and (max-width: 600px) and (min-width: 1px) {
   #logo{
     font-size:30px;
     margin-top:30%;
@@ -2128,7 +2128,7 @@ top:220px;
 
 }
 
-@media only screen and (max-width: 380px) and (min-width: 1px) {
+@media only screen and (max-width: 415px) and (min-width: 1px) {
 .fullWidthbackground{
   margin-top:-19%;
 
@@ -2141,7 +2141,7 @@ top:220px;
   font-size:27px;
 }
 arrrow{
-  margin-top:70%;
+  margin-top:55%;
 }
 .column0{
   margin-top:-5%;
