@@ -1913,7 +1913,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   .fullWidthbackground{
     width:90%;
     top:29%;
-    height:70%;
+    height:77%;
   }
   #mydiv{
     width:200%;
@@ -1951,7 +1951,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   .bored{
     width:50%;
     margin-left:56%;
-    margin-top:-6%;
+    margin-top:-3%;
   }
   .nav{
     display:none;
@@ -2148,6 +2148,6 @@ arrrow{
 
 }
 .bored{
-  margin-top:-1%;
+  margin-top:-10%;
 }
 }
