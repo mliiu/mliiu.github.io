@@ -1913,14 +1913,14 @@ font-family: 'Goudy Bookletter 1911', serif;
   .fullWidthbackground{
     width:90%;
     top:29%;
-    height:70%;
+    height:74%;
   }
   #mydiv{
     width:200%;
     margin-left:-42%;
   }
   .fullWidth{
-    top:-14%;
+    top:-11%;
     font-size: 7.2vw;
     text-align:center;
     padding:20px;
@@ -1940,7 +1940,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-left:16%;
 }
   arrrow{
-    margin-top:150px;
+    margin-top:170px;
     margin-left:45%;
   }
   .flower{
