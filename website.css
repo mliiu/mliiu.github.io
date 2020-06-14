@@ -2081,4 +2081,49 @@ pict{
   font-size:22px;
 }
 
+#blurb{
+display:none;
+
+}
+#misc{
+  margin-top:60px;
+  width:100%;
+  margin-left:-6%;
+}
+#photo{
+  width:140px;
+top:220px;
+  position:relative;
+}
+
+#about{
+  position:absolute;
+  margin-left:-70%;
+  margin-top:-350px;
+  width:290px;
+  font-size:18px;
+}
+.box{
+  font-size:20px;
+}
+.box2{
+  margin-left:50px;
+  width:400px;
+
+}
+
+#photo2{
+  margin-top:260px;
+  margin-left:45px;
+  width:170px;
+  height:110px;
+}
+
+.illus{
+  margin-left:-100px;
+  top:96%;
+  margin-left:-140%;
+  width:100px;
+}
+
 }
