@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<script>
-$(document).ready(function() {
-    $("body").css("display", "none");
-    $("body").fadeIn(200);
-    $("a.transition").click(function(event){
-        event.preventDefault();
-        linkLocation = this.href;
-        $("body").fadeOut(100, redirectPage);
-    });
-    function redirectPage() {
-        window.location = linkLocation;
-      }
-});
-</script>
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,7 +77,7 @@ overflow-x: hidden;
 
   <div id="container">
     <div class="fullWidth" data-aos="slide-up">
-  </h5>lorem ipsum text obama individual applying<br>&nbsp;&nbsp; <font style="color:#fff4f0"><a href="null">strategy</a></font>, <font style="color:#fff4f0">design-thinking</a></font>, and <font style="color:#fff4f0"><a href="null">user research</a></font> text obama text
+  </h5>Hi, I'm <i>Maggie</i>. I'm a multidisciplinary designer applying<br>&nbsp;&nbsp; <font style="color:#fff4f0"><a href="null">strategy</a></font> and <font style="color:#fff4f0">design-thinking</a></font> to solve complex problems
 </div></div>
 
 <arrrow></arrrow>
@@ -415,7 +401,20 @@ function myFunction() {
 
 </script>
 
-
+<script>
+$(document).ready(function() {
+    $("body").css("display", "none");
+    $("body").fadeIn(200);
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(100, redirectPage);
+    });
+    function redirectPage() {
+        window.location = linkLocation;
+      }
+});
+</script>
 
 
 
