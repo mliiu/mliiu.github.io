@@ -2128,7 +2128,7 @@ top:220px;
 
 }
 
-@media only screen and (max-width: 360px) and (min-width: 1px) {
+@media only screen and (max-width: 364px) and (min-width: 1px) {
 .fullWidthbackground{
   margin-top:-19%;
 
@@ -2137,12 +2137,17 @@ top:220px;
   margin-top:-29%;
 }
 .fullWidth{
-  margin-top:-45%;
-  font-size:26px;
+  margin-top:-4%;
+  font-size:27px;
 }
 arrrow{
-  margin-top:55%;
+  margin-top:70%;
 }
 .column0{
   margin-top:-5%;
+
+}
+.bored{
+  margin-top:-1%;
+}
 }
