@@ -324,7 +324,7 @@ header{
   width:175%;
   position:absolute;
   margin-left: 9.8%;
-  margin-top: -17%;
+  margin-top: -18.5%;
   z-index:0 !important;
   float: left;
   text-align:center;
@@ -372,7 +372,7 @@ arrrow{
   width: 30px;
   height: 10px;
   margin-left:48%;
-  margin-top:14.5%;
+  margin-top:15.5%;
 }
 
 arrrow:after,
@@ -1940,7 +1940,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-left:16%;
 }
   arrrow{
-    margin-top:260px;
+    margin-top:280px;
     margin-left:45%;
   }
   .flower{
@@ -2138,7 +2138,7 @@ top:220px;
 }
 .fullWidth{
   margin-top:-20%;
-  font-size:24px;
+  font-size:26px;
 }
 arrrow{
   margin-top:65%;
