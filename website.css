@@ -1932,14 +1932,17 @@ font-family: 'Goudy Bookletter 1911', serif;
     width:70%;
     font-size:12px;
     margin-left:11%;
+    display:none;
   }
 .column2{
   width:80%;
   margin-left:8%;
+  display:none;
 }
 .column{
   width:70%;
   margin-left:16%;
+  display:none;
 }
   arrrow{
     margin-top:150px;
@@ -2146,8 +2149,9 @@ top:220px;
 arrrow{
   margin-top:46%;
 }
-.column0{
+.column0,.column,.column2{
   margin-top:0%;
+  display:none;
 
 }
 .bored{
