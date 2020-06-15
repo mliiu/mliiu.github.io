@@ -115,7 +115,7 @@ a:link:hover{
 	height: 123%;
 	text-align: center;
 	font-size: 1.8vw;
-	line-height: 25px;
+	line-height: 23px;
   font-family: 'savate';
 	overflow: hidden;
   text-align:left;
@@ -322,6 +322,7 @@ header{
 .fullWidth{
    display:inline;
   width:175%;
+  height:100%;
   position:absolute;
   margin-left: 9.8%;
   margin-top: -19%;
@@ -1947,6 +1948,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   arrrow{
     margin-top:150px;
     margin-left:42%;
+    display:none;
   }
   .flower{
     top:23%;
@@ -2148,6 +2150,7 @@ top:220px;
 }
 arrrow{
   margin-top:46%;
+  display:none;
 }
 .column0,.column,.column2{
   margin-top:0%;
