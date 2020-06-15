@@ -314,7 +314,7 @@ header{
   background-repeat:no-repeat;
   background-size:cover;
   height:390px;
-  width:1150px;
+  width:1250px;
   max-height:78%;
   margin-top:-10%;
   z-index:0;
@@ -324,13 +324,13 @@ header{
   width:175%;
   position:absolute;
   margin-left: 9.8%;
-  margin-top: -18.5%;
+  margin-top: -19%;
   z-index:0 !important;
   float: left;
   text-align:center;
   font-family: "bretagne";
   font-weight:100;
-  font-size:3.8vw;
+  font-size:3.75vw;
   padding:25px;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
@@ -372,7 +372,7 @@ arrrow{
   width: 30px;
   height: 10px;
   margin-left:48%;
-  margin-top:15.9%;
+  margin-top:16%;
 }
 
 arrrow:after,
@@ -1884,13 +1884,14 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 }
 
-@media only screen and (max-width: 1270px) and (min-width: 550px) {
+@media only screen and (max-width: 1600px) and (min-width: 550px) {
   .fullWidthbackground{
     width:90%;
     margin-top:-10%;
+    height:65%;
   }
   arrrow{
-    margin-top:15%;
+    margin-top:16%;
   }
   .bored{
     margin-top:-10%;
