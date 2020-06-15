@@ -1898,16 +1898,12 @@ font-family: 'Goudy Bookletter 1911', serif;
     margin-top:-10%;
   }
   .column0{
-    margin-top:-10%;
+    margin-top:-13%;
   }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 1px) {
-html{
-  position: fixed;
-    width: 100%;
-    height: 100%;
-}
+
   #logo{
     font-size:30px;
     margin-top:30%;
@@ -1922,15 +1918,13 @@ html{
     width:90%;
     top:29%;
     height:77%;
-    overflow-y: hidden;
   }
   #mydiv{
     width:200%;
     margin-left:-42%;
   }
   .fullWidth{
-    top:-13%;
-    overflow-y: hidden;
+    top:-14%;
     font-size: 7.2vw;
     text-align:center;
     padding:20px;
@@ -1959,17 +1953,15 @@ html{
 
   }
   .flower{
-    top:19%;
+    top:16%;
     margin-left:-21%;
     width:70%;
     display:run-in;
-    overflow-y: hidden;
   }
   .bored{
     width:50%;
     margin-left:60%;
-    margin-top:-90%;
-    overflow-y: hidden;
+    margin-top:40%;
   }
   .nav{
     display:none;
@@ -2147,27 +2139,20 @@ top:220px;
 }
 
 @media only screen and (max-width: 415px) and (min-width: 1px) {
-html{
-  position: fixed;
-    width: 100%;
-    height: 100%;
-}
 .fullWidthbackground{
   margin-top:-18%;
   height:76%;
-  overflow-y: hidden;
 
 }
+.flower{
+  margin-top:-16%;
 }
 .fullWidth{
   margin-top:-10%;
-  height:50%;
   font-size:27px;
-  overflow-y: hidden;
 }
 arrrow{
   margin-top:46%;
-  overflow-y: hidden;
 
 }
 .column0,.column,.column2{
@@ -2177,6 +2162,5 @@ arrrow{
 }
 .bored{
   margin-top:50%;
-  overflow-y: hidden;
 }
 }
