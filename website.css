@@ -1903,6 +1903,7 @@ font-family: 'Goudy Bookletter 1911', serif;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 1px) {
+
   #logo{
     font-size:30px;
     margin-top:30%;
@@ -1947,18 +1948,20 @@ font-family: 'Goudy Bookletter 1911', serif;
 }
   arrrow{
     margin-top:150px;
-    margin-left:42%;
+    margin-left:32%;
     display:none;
+
   }
   .flower{
-    top:23%;
-    margin-left:-76%;
+    top:19%;
+    margin-left:-21%;
     width:70%;
+    display:run-in;
   }
   .bored{
     width:50%;
-    margin-left:56%;
-    margin-top:-3%;
+    margin-left:60%;
+    margin-top:-90%;
   }
   .nav{
     display:none;
@@ -2137,20 +2140,19 @@ top:220px;
 
 @media only screen and (max-width: 415px) and (min-width: 1px) {
 .fullWidthbackground{
-  margin-top:-19%;
-  height:73%;
+  margin-top:-18%;
+  height:76%;
 
 }
-.flower{
-  margin-top:-29%;
 }
 .fullWidth{
   margin-top:-10%;
+  height:50%;
   font-size:27px;
 }
 arrrow{
   margin-top:46%;
-  display:none;
+
 }
 .column0,.column,.column2{
   margin-top:0%;
@@ -2158,6 +2160,6 @@ arrrow{
 
 }
 .bored{
-  margin-top:-10%;
+  margin-top:50%;
 }
 }
