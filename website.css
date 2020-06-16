@@ -2052,23 +2052,25 @@ display:none;
 }
 
 #mtext{
-  width:240px;
+  width:140%;
   font-size:14px;
+  float:center;
+  text-align:center;
   margin-left:-18%;
-  margin-top:-30%;
+  margin-top:-65px;
 }
 
 #bodytext{
   font-size:16px;
-  width:300px;
-  margin-left:-40%;
+  width:165%;
+  margin-left:-30%;
 }
 
 #bodytext1{
   font-size:16px;
-  width:300px;
-  margin-top:-30%;
-  margin-left:-40%;
+  width:165%;
+  margin-top:-25%;
+  margin-left:-30%;
 }
 
 #reftext{

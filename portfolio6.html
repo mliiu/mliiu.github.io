@@ -41,10 +41,27 @@
     </div>
 
     <style>html{
-       max-width: 100%;
+       width: 100%;
        overflow-x: hidden;
     }
+
+    @media only screen and (max-width: 600px) and (min-width: 1px) {
+      html{
+        width:100vw;
+        height:100vh;
+        overflow-x:hidden;
+        margin:0;
+        padding:0;
+      }
+      body{
+        overflow-x:hidden;
+      }
+    }
+
+
+
     </style>
+
     <div id="menu-toggle" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
       <div class="overlay-content">
