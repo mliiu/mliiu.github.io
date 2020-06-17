@@ -604,7 +604,7 @@ arrrow{
 .illus{
   position:absolute;
   width:16vw;
-  bottom:11%;
+  bottom:2%;
   left:75%;
   animation: draw 10000ms ease-in-out;
 }
@@ -2119,13 +2119,14 @@ top:220px;
   font-size:20px;
 }
 .box2{
-  margin-left:50px;
+  margin-left:30px;
+  margin-top:15px;
   width:400px;
 
 }
 
 #photo2{
-  margin-top:260px;
+  margin-top:240px;
   margin-left:45px;
   width:170px;
   height:110px;
@@ -2133,7 +2134,7 @@ top:220px;
 
 .illus{
   margin-left:-100px;
-  top:96%;
+  top:106%;
   margin-left:-140%;
   width:100px;
 }
