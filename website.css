@@ -321,17 +321,17 @@ header{
 }
 .fullWidth{
    display:inline;
-  width:170%;
+  width:155%;
   height:100%;
   position:absolute;
-  margin-left: 13.8%;
+  margin-left: 20.8%;
   margin-top: -19%;
   z-index:0 !important;
   float: left;
   text-align:center;
   font-family: "bretagne";
   font-weight:100;
-  font-size:3.75vw;
+  font-size:3.55vw;
   padding:25px;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
