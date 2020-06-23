@@ -321,10 +321,10 @@ header{
 }
 .fullWidth{
    display:inline;
-  width:175%;
+  width:170%;
   height:100%;
   position:absolute;
-  margin-left: 9.8%;
+  margin-left: 13.8%;
   margin-top: -19%;
   z-index:0 !important;
   float: left;
