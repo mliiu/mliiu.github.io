@@ -451,15 +451,15 @@ arrrow{
 
 
 .columnx {
-  display:grid;
+  display:none;
   float: left;
   width: 40%;
   padding:2.1%;
-  padding-bottom:2.5%;
+  padding-bottom:1%;
   margin-left:13.5%;
   margin-right:-14%;
-  margin-top:-7%;
-  margin-bottom:8%;
+  margin-top:4%;
+  margin-bottom:-2%;
 }
 
 
@@ -1986,9 +1986,11 @@ font-family: 'Goudy Bookletter 1911', serif;
  }
 
 .columnx{
-  margin-top:-55%;
+  margin-top:-5%;
   width:130%;
   padding:25%;
+  padding-top:15%;
+  margin-bottom:-130px;
   margin-left:-15%;
 
 }

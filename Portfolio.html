@@ -73,7 +73,58 @@ $(document).ready(function() {
 
   </header>
 
-  <div class="columnx">
+<style>
+
+.show {
+  display: block;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 1% 2%;
+  background-color: white;
+  border:1px solid #a7eb41;
+  font-size: 0.8em;
+  color:#E4ADE2;
+  font-family: object;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: lightgray;
+  color:orange;
+}
+
+.btn.active {
+  background-color: #E4ADE2;
+  color: white;
+}
+.Btndiv{
+  margin-left:30%;
+  margin-top:-15vh;
+}
+@media only screen and (max-width: 600px) and (min-width: 1px) {
+  .Btndiv{
+    margin-left:7%;
+    width:430px;
+    margin-top:-25%;
+  }
+}
+
+</style>
+
+<div class="Btndiv">
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('design')"> Design Research</button>
+  <button class="btn" onclick="filterSelection('data')"> Data Viz</button>
+  <button class="btn" onclick="filterSelection('story')"> Storytelling</button>
+  <button class="btn" onclick="filterSelection('reports')"> Reports</button>
+</div></div>
+
+
+  <div class="columnx design">
     <a href="reformance.html">
     <div class="hvrbox">
     <img src ="https://i.imgur.com/aaSOsUv.png" style="width:400px;height:230px;border:0;">
@@ -85,7 +136,7 @@ $(document).ready(function() {
   </div>
   </div>
 
-  <div class="columnx">
+  <div class="columnx design">
     <a href="portfolio6.html">
     <div class="hvrbox">
     <img src ="https://i.ibb.co/qnc5YGr/Screen-Shot-2020-05-24-at-5-03-49-PM.png" style="width:400px;height:230px;border:0;">
@@ -97,7 +148,7 @@ $(document).ready(function() {
   </div>
   </div>
 
-  <div class="columnx">
+  <div class="columnx story">
     <a href="portfoliocc.html">
     <div class="hvrbox">
     <img src ="https://thumbs.gfycat.com/GrippingColorfulAmazontreeboa-size_restricted.gif" style="width:400px;height:230px;border:0;">
@@ -109,7 +160,7 @@ $(document).ready(function() {
   </div>
   </div>
 
-  <div class="columnx">
+  <div class="columnx story">
     <a href="portfolioprince.html">
     <div class="hvrbox">
     <img src ="https://i.ibb.co/J3QSBcG/ezgif-com-video-to-gif.gif" style="width:400px;height:230px;border:0;">
@@ -122,7 +173,7 @@ $(document).ready(function() {
   </div>
 
 
-  <div class="columnx">
+  <div class="columnx data">
     <a href="portfolio4.html">
     <div class="hvrbox">
     <img src ="https://d3cnky5llnzyoo.cloudfront.net/graphs/images/0218a88f-1b54-4626-a9e8-e0e24080150e/original/Untitled-2.png" style="width:400px;height:230px;border:0;">
@@ -134,7 +185,7 @@ $(document).ready(function() {
   </div>
   </div>
 
-  <div class="columnx">
+  <div class="columnx reports">
     <a href="portfoliob.html">
     <div class="hvrbox">
     <img src ="https://i.ibb.co/WtfcXcy/Screen-Shot-2020-05-16-at-3-47-50-PM.png" style="width:400px;height:230px;border:0;">
@@ -146,7 +197,7 @@ $(document).ready(function() {
   </div>
   </div>
 
-  <div class="columnx">
+  <div class="columnx reports">
     <a href="portfolio1.html">
     <div class="hvrbox">
     <img src ="https://i.imgur.com/NXVTWF9.png" style="width:400px;height:230px;border:0;">
@@ -160,7 +211,7 @@ $(document).ready(function() {
 
 
 
-<div class="columnx">
+<div class="columnx data">
   <a href="portfolio2.html">
   <div class="hvrbox">
   <img src ="https://i.ibb.co/DR5vjHc/ezgif-com-gif-maker-1.gif" style="width:400px;height:230px;border:0;">
@@ -246,5 +297,52 @@ $(document).ready(function() {
     document.getElementById("menu-toggle").style.width = "0%";
   }
   </script>
+
+
+  <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("columnx");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
 </body>
 <html>
