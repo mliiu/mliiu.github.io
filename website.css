@@ -3,6 +3,10 @@
   src: url(NantesTrial-Light.otf);
 }
 @font-face {
+  font-family: Compagnon;
+  src: url(Compagnon-Light.otf);
+}
+@font-face {
   font-family: object;
   src: url(ObjectSans-Regular.otf);
 }
