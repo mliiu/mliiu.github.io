@@ -214,7 +214,7 @@ header{
   width: 220%;
   height: 22%;
   float:center;
-  z-index:0;
+  z-index:1;
 }
 
 
@@ -324,7 +324,7 @@ header{
   height:390px;
   width:1250px;
   max-height:78%;
-  margin-top:-10%;
+  margin-top:10%;
   z-index:0;
 }
 .fullWidth{
@@ -1950,11 +1950,15 @@ width:1800px;
   transform: rotate(-35deg);
 
 }
-@media only screen and (max-width: 6000px) and (min-width: 550px) {
+@media only screen and (max-width: 6000px) and (min-width: 600px) {
   .fullWidthbackground{
     width:90%;
-    margin-top:-10%;
+    margin-top:-120px;
     height:65%;
+  }
+
+  .fullWidth{
+    margin-top:-110px;
   }
   arrrow{
     margin-top:16%;
@@ -2212,7 +2216,7 @@ top:220px;
 
 }
 
-@media only screen and (max-width: 415px) and (min-width: 1px) {
+@media only screen and (max-width: 600px) and (min-width: 1px) {
 
 .fullWidthbackground{
   margin-top:-18%;
