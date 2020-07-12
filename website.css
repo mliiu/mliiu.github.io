@@ -70,7 +70,7 @@ body{
   transition-duration:12s;
   width: 30%;
   height:100%;
-	top: 24%;
+	top: 26%;
   left:0%;
 	font-size: 1.2vw;
   position:fixed;
@@ -1906,7 +1906,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
   background-size:cover;
-width:1900px;
+width:1800px;
   height:470px;
   margin-left:-120%;
   margin-top:-7%;
@@ -1933,8 +1933,8 @@ width:1900px;
 }
 
 #photo4{
-  margin-left:125%;
-  margin-top:35%;
+  margin-left:145%;
+  margin-top:70%;
   position:absolute;
   width:22%;
 
@@ -1978,7 +1978,7 @@ width:1900px;
   }
   .fullWidthbackground{
     width:90%;
-    top:29%;
+    top:175px;
     height:77%;
   }
   #mydiv{
@@ -1986,8 +1986,8 @@ width:1900px;
     margin-left:-42%;
   }
   .fullWidth{
-    top:-17%;
-    font-size: 7.2vw;
+    top:-15%;
+    font-size: 7.1vw;
     text-align:center;
     padding:20px;
   }
