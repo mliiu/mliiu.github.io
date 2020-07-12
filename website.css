@@ -111,7 +111,7 @@ a:link:hover{
    text-decoration-color: blue;
    -webkit-text-decoration-style: wavy  !important;
    text-decoration-style: wavy !important;
-     transition:0.4s;
+     transition:1s;
      z-index:1;
           cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
 
