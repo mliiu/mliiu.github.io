@@ -18,6 +18,9 @@
   font-family: lanord;
   src: url(LaNord-SemiLight.woff);
 }
+html{
+       cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
+}
 body{
   background-color: white!important;
   margin:0px;
@@ -98,6 +101,8 @@ a:link {
   color: #fff4f0;
   text-decoration:none;
   	overflow: hidden;
+         cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
+
 }
 
 a:link:hover{
@@ -109,7 +114,7 @@ a:link:hover{
    text-decoration-style: wavy !important;
      transition:0.4s;
      z-index:1;
-     cursor: url('http://cur.cursors-4u.net/symbols/sym-1/sym57.cur'), auto;
+          cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
 
 }
 
@@ -222,7 +227,7 @@ header{
   font-size: 1.2vw;
   -webkit-transition: background-color 0.5s, margin top: 0.5s;
   transition: background-color 0.5s, margin-top 0.5s;
-  font-family: 'mada', serif;
+  font-family: 'lanord', serif;
 }
 
 .links:hover{
@@ -641,7 +646,6 @@ arrrow{
 	border-radius:28px;
 	border:1px solid #a7eb41;
 	display:inline-block;
-	cursor:pointer;
   text-decoration-color: gray;
 	padding:11px 31px;
 	text-decoration:none;
@@ -660,7 +664,6 @@ arrrow{
 	border-radius:28px;
 	border:1px solid #a7eb41;
 	display:inline-block;
-	cursor:pointer;
   text-decoration-color: gray;
 	padding:11px 31px;
 	text-decoration:none;
@@ -1947,7 +1950,7 @@ width:1800px;
   transform: rotate(-35deg);
 
 }
-@media only screen and (max-width: 1600px) and (min-width: 550px) {
+@media only screen and (max-width: 6000px) and (min-width: 550px) {
   .fullWidthbackground{
     width:90%;
     margin-top:-10%;
