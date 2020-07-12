@@ -211,7 +211,7 @@ header{
   margin-top: 25px;
   margin-left:-30.5%;
   width: 220%;
-  height: 22%;
+  height: 24%;
   float:center;
   z-index:1;
 }
@@ -280,7 +280,7 @@ header{
 #blurb{
   position:absolute;
   display:inline;
-  font-family: 'amiri', serif;
+  font-family: 'lanord', serif;
   border-style:dotted;
   border-color:blue;
   opacity:0.5;
