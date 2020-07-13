@@ -1863,7 +1863,7 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 18%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -1884,7 +1884,7 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 2px;
   right: 45px;
 
 }
