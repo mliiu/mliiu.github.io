@@ -278,7 +278,7 @@ header{
 
 
 #blurb{
-  position:absolute;
+  position:relative;
   display:inline;
   font-family: 'lanord', serif;
   border-style:dotted;
@@ -288,9 +288,9 @@ header{
   float:left;
   width: 105%;
   max-width:55%;
-  margin-top:25%;
-  margin-bottom:-30%;
-  margin-left:-27%;
+  margin-top:27%;
+  margin-bottom:-55%;
+  margin-left:23%;
 }
 
 #misc{
@@ -298,7 +298,7 @@ header{
   display:inline;
   float:left;
   width: 160%;
-  margin-top:40%;
+  margin-top:36%;
   margin-left:4%;
 }
 
