@@ -109,8 +109,8 @@ a:link:hover{
   text-decoration: underline;
    -webkit-text-decoration-color: blue;
    text-decoration-color: blue;
-   -webkit-text-decoration-style: wavy  !important;
-   text-decoration-style: wavy !important;
+   -webkit-text-decoration-style: wavy;
+   text-decoration-style: wavy;
      transition:1s;
      z-index:1;
           cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
@@ -214,6 +214,7 @@ header{
   height: 40%;
   float:center;
   z-index:1;
+
 }
 
 
@@ -231,6 +232,9 @@ header{
 
 .links:hover{
   margin-top: -18px;
+  color: red!important;
+  transition:1s;
+
 }
 
 #bgblue{
