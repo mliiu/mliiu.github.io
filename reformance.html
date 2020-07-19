@@ -5,7 +5,6 @@
     <title>Maggie Liu</title>
     <link rel="stylesheet" href="website.css">
   <meta charset="UTF-8">
-  <META HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap" rel="stylesheet">
@@ -302,6 +301,12 @@ We thought this gallery would fit her latest album “Dirty Computer” because 
   function closeNav() {
     document.getElementById("menu-toggle").style.width = "0%";
   }
+  </script>
+
+  <script>
+  if (window.location.href.indexOf('reload')==-1) {
+     window.location.replace(window.location.href+'?reload');
+}
   </script>
 
 </html>
