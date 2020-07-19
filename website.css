@@ -22,9 +22,7 @@
   font-family: lanord;
   src: url(LaNord-SemiLight.woff);
 }
-html{
-       cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
-}
+
 body{
   background-color: white!important;
   margin:0px;
@@ -100,7 +98,7 @@ a:link {
   color: #fff4f0;
   text-decoration:none;
   	overflow: hidden;
-         cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
+    cursor:pointer;
 
 }
 
@@ -113,7 +111,7 @@ a:link:hover{
    text-decoration-style: wavy;
      transition:1s;
      z-index:1;
-          cursor: url('https://i.ibb.co/6DvCZ0P/cursorarrow.png'), auto;
+          cursor: pointer;
 
 }
 
@@ -232,8 +230,6 @@ header{
 
 .links:hover{
   margin-top: -18px;
-  color: red!important;
-  transition:1s;
 
 }
 
@@ -2053,7 +2049,6 @@ width:1800px;
  .overlay .closebtn{
  font-size: 40px;
  top: 15px;
- cursor:
  right: 35px;
  }
 
