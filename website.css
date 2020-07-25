@@ -491,7 +491,7 @@ arrrow{
 #photo{
   position:relative;
   margin-left:-93%;
-  margin-top:-15%;
+  margin-top:-20%;
   width:75%;
   height:75%;
   border-style:solid;
@@ -611,8 +611,9 @@ arrrow{
 .illus{
   position:absolute;
   width:16vw;
-  bottom:-3%;
-  left:66%;
+  bottom:10%;
+  left:75%;
+  z-index:100;
   animation: draw 10000ms ease-in-out;
 }
 
@@ -2192,22 +2193,22 @@ top:220px;
 
 }
 .box2{
-  margin-left:50px;
-  margin-top:15px;
-  width:400px;
+  margin-left:40px;
+  margin-top:10px;
+  width:300px;
 
 }
 
 #photo2{
-  margin-top:240px;
-  margin-left:45px;
+  margin-top:260px;
+  margin-left:40px;
   width:170px;
   height:110px;
 }
 
 .illus{
   margin-left:-100px;
-  top:106%;
+  top:96%;
   margin-left:-140%;
   width:100px;
 }
@@ -2240,5 +2241,4 @@ arrrow{
 .bored{
   margin-top:50%;
 }
-
 }
