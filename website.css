@@ -1890,6 +1890,16 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 }
 
+#a24title{
+  position:auto;
+  width:230%;
+  float:center;
+  font-family: 'Karrik';
+  font-size: 3.2vw;
+  text-align: center;
+  margin-left:-64%;
+}
+
 #votetitle{
   position:auto;
   width:230%;
@@ -1933,6 +1943,17 @@ width:1800px;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 
+}
+
+#a24text{
+  width:140%;
+  font-size:15px;
+  font-family:'karrik';
+  float:center;
+  color:gray;
+  text-align:center;
+  margin-left:-18%;
+  margin-top:-65px;
 }
 
 #photo4{
