@@ -552,7 +552,7 @@ arrrow{
   position:inherit;
   display:block;
   margin-left:-6%;
-  margin-top:-112%;
+  margin-top:-115%;
   width:125%;
   height:9%;
   font-size:1.2vw;
@@ -611,7 +611,7 @@ arrrow{
 .illus{
   position:absolute;
   width:16vw;
-  bottom:7%;
+  bottom:10%;
   left:75%;
   z-index:100;
   animation: draw 10000ms ease-in-out;
@@ -1919,7 +1919,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
   background-size:cover;
-width:1800px;
+width:3000px;
   height:470px;
   margin-left:-120%;
   margin-top:-7%;
@@ -2198,7 +2198,7 @@ display:none;
 }
 #photo{
   width:140px;
-top:220px;
+top:230px;
   position:relative;
 }
 
@@ -2207,7 +2207,7 @@ top:220px;
   margin-left:-70%;
   margin-top:-350px;
   width:290px;
-  font-size:17px;
+  font-size:14px;
 }
 .box{
   font-size:20px;
@@ -2262,3 +2262,20 @@ arrrow{
   margin-top:50%;
 }
 }
+
+@media only screen and (max-width: 3000px) and (min-width: 1600px) {
+        #about{
+          margin-top:-650px;
+        }
+        #photo{
+          margin-top:-40px;
+        }
+        .illus{
+            margin-bottom:-150px;
+        }
+        #photo2{
+          margin-top:20px;
+        }
+        }
+
+      }
