@@ -1895,7 +1895,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   width:230%;
   float:center;
   font-family: 'Karrik';
-  font-size: 3.2vw;
+  font-size: 40px;
   text-align: center;
   margin-left:-64%;
 }
@@ -2198,14 +2198,14 @@ display:none;
 }
 #photo{
   width:140px;
-top:230px;
+top:200px;
   position:relative;
 }
 
 #about{
   position:absolute;
   margin-left:-70%;
-  margin-top:-350px;
+  margin-top:-330px;
   width:290px;
   font-size:14px;
 }
@@ -2215,7 +2215,7 @@ top:230px;
 }
 .box2{
   margin-left:45px;
-  margin-top:10px;
+  margin-top:-10px;
   width:200%;
 }
 
@@ -2263,9 +2263,9 @@ arrrow{
 }
 }
 
-@media only screen and (max-width: 3000px) and (min-width: 1600px) {
+@media only screen and (max-width: 3000px) and (min-width: 1900px) {
         #about{
-          margin-top:-650px;
+          margin-top:-680px;
         }
         #photo{
           margin-top:-40px;
