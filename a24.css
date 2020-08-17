@@ -233,14 +233,14 @@ figure .step-text {
 @media only screen and (max-width: 700px) and (min-width: 300px) {
 
   figure img{
-    width:302px;
-    margin-left:40% !important;
+    width:190px;
+    margin-left:45% !important;
   }
   p{
-    font-size:11px !important;
+    font-size:10px !important;
   }
   #scrolly{
-    width:200%;
+    width:160%;
   }
   iframe{
     margin-left:-40%;
@@ -255,11 +255,12 @@ figure .step-text {
     width:20px !important;
   }
   .step{
-    height:430px !important;
+    height:490px !important;
+    width:110px;
   }
 
 .footer{
-  font-size:14px;
+  font-size:10px;
   padding-left:40px;
   padding-right:100px;
   padding-bottom:200px;
