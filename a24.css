@@ -227,6 +227,7 @@ figure .step-text {
   padding-left:100px;
   padding-top:40px;
   font-size:1.4vw;
+  padding-bottom:180px;
   padding-right:300px;
 }
 
@@ -263,7 +264,7 @@ figure .step-text {
   font-size:10px;
   padding-left:40px;
   padding-right:100px;
-  padding-bottom:200px;
+  padding-bottom:50px;
 }
   }
 
