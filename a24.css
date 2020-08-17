@@ -21,6 +21,7 @@ html{
      border:none;
      width:90vw;
      height:100vh;
+      overflow:hidden;
    }
 #subtext{
   position:auto;
@@ -207,9 +208,68 @@ figure .step-text {
       justify-content: center;
       margin-bottom: 20px;
     }
+#bottom{
+  color:#7C41FF;
 
-@media only screen and (max-width: 700px) and (min-width: 200px) {
-  img{
-    max-width:40px;
+}
+
+.footer {
+  position:absolute;
+  bottom:-1.7%;
+  width:370%;
+  margin-left:-120%;
+  font-family: karrik;
+  height:200px;
+  background:#CFB5D9;//optional
+  color:gray;
+  transition: 0.4s;
+  padding-left:100px;
+  padding-top:40px;
+  font-size:1.4vw;
+  padding-right:300px;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+
+  figure img{
+    width:302px;
+    margin-left:40% !important;
   }
+  p{
+    font-size:11px !important;
+  }
+  #scrolly{
+    width:200%;
+  }
+  iframe{
+    margin-left:-40%;
+    padding-right:10%;
+    margin-bottom:200px !important;
+    margin-top:5%;
+    overflow:scroll;
+
+  }
+
+  .step img{
+    width:20px !important;
+  }
+  .step{
+    height:430px !important;
+  }
+
+.footer{
+  font-size:14px;
+  padding-left:40px;
+  padding-right:100px;
+  padding-bottom:200px;
+}
+  }
+
+  @media only screen and (max-width: 1150px) and (min-width: 699px) {
+    figure img{
+      width:390px;
+    }
+    p{
+    font-size:18px !important;
+    }
 }
