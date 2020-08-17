@@ -125,6 +125,7 @@ figure .step-text {
     font-family: Karrik;
     background-color: #3b3b3b;
     color: #fff;
+    height:490px !important;
   }
 
   .step img {
@@ -216,7 +217,7 @@ figure .step-text {
 .footer {
   position:absolute;
   bottom:-1.7%;
-  width:370%;
+  width:350%;
   margin-left:-120%;
   font-family: karrik;
   height:200px;
