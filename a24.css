@@ -20,7 +20,7 @@ html{
      position:relative;
      border:none;
      width:90vw;
-     height:100vh;
+     height:100vh ;
       overflow:hidden;
    }
 #subtext{
@@ -220,13 +220,13 @@ figure .step-text {
   width:350%;
   margin-left:-120%;
   font-family: karrik;
-  height:200px;
+  height:1.2%;
   background:#CFB5D9;//optional
   color:gray;
   transition: 0.4s;
   padding-left:100px;
   padding-top:40px;
-  font-size:1.4vw;
+  font-size:1.2vw;
   padding-bottom:180px;
   padding-right:300px;
 }
@@ -264,7 +264,7 @@ figure .step-text {
   font-size:10px;
   padding-left:40px;
   padding-right:100px;
-  padding-bottom:50px;
+  padding-top:30px;
 }
   }
 
