@@ -78,12 +78,12 @@ body{
   height:100%;
 	top: 27%;
   left:0%;
-	font-size: 1.1vw;
+	font-size: 1vw;
   position:fixed;
   color:blue;
   opacity:0.7;
   z-index:-1;
-  font-family: 'mada',
+  font-family: 'lanord',
     serif;
 
 }
@@ -144,7 +144,7 @@ a:link:hover{
 .box span::before {
 	content: attr(data-text);
 	position: absolute;
-  font-family:"amiri";
+  font-family:"mada";
 	color: #f2af1d;
 }
 
@@ -170,7 +170,7 @@ a:link:hover{
   width:15%;
   color:blue;
   font-size: 1.09vw;
-  font-family: 'mada', serif;
+  font-family: 'lanord', serif;
 }
 .sticky{
   position:absolute;
@@ -184,7 +184,7 @@ a:link:hover{
 #wrapper .text {
 position:absolute;
 left:15%;
-margin-top:-15%;
+margin-top:-17%;
 visibility:hidden;
 }
 
@@ -247,7 +247,7 @@ header{
 #Titles{
   position:auto;
   width:230%;
-  font-family: 'mada', bold,serif;
+  font-family: 'Mada', bold,serif;
   font-size: 2vw;
   color: blue;
   text-align:center;
@@ -360,7 +360,7 @@ header{
   width: 41%;
   margin-top:0%;
   margin-left:29%;
-  font-family: 'Amiri', serif;
+  font-family: 'mada', serif;
 text-decoration: none!important;
 }
 
@@ -370,7 +370,7 @@ text-decoration: none!important;
   margin-top:20px;
   margin-left:30%;
   text-align:center;
-  font-family: 'amiri', serif;
+  font-family: 'mada', serif;
   text-decoration: none!important;
 
 
@@ -640,7 +640,7 @@ arrrow{
 }
 .carousel{
   position:relative;
-  font-family: 'Amiri', serif;
+  font-family: 'mada', serif;
   float: center;
   width: 152%;
   margin-top:-20%;
@@ -2228,6 +2228,7 @@ top:200px;
   margin-left:45px;
   margin-top:-10px;
   width:200%;
+  font-style: Mada;
 }
 
 #photo2{
