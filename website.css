@@ -103,7 +103,7 @@ a:link {
 }
 
 a:link:hover{
-  color: yellow;
+  color: #DFFC8F;
   text-decoration: underline;
    -webkit-text-decoration-color: blue;
    text-decoration-color: blue;
