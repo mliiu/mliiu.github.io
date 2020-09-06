@@ -58,6 +58,7 @@ body{
     height: 100%;
 }
 
+
 .back-to-top {
   position: fixed;
   bottom: 0;
@@ -330,14 +331,14 @@ header{
 
 .fullWidth{
    display:inline;
-  width:155%;
+  width:165%;
   height:100%;
   position:absolute;
   margin-left: 20.8%;
   margin-top: -19%;
   z-index:0 !important;
   float: left;
-  text-align:center;
+  text-align:left;
   font-family: "bretagne";
   font-weight:100;
   font-size:3.55vw;
@@ -635,7 +636,7 @@ arrrow{
 
 
 .graph{
-  margin-left:-61%;
+  margin-left:-65%;
 }
 .carousel{
   position:relative;
@@ -643,9 +644,9 @@ arrrow{
   float: center;
   width: 152%;
   margin-top:-20%;
-  margin-left: -25.5%;
+  margin-left: -21.5%;
   margin-bottom:17%;
-  text-align:center;
+  text-align:left;
   position:absolute;
 
 }
@@ -1960,7 +1961,7 @@ width:3000px;
   font-family:'karrik';
   float:center;
   color:gray;
-  text-align:center;
+    text-align:left;
   margin-left:-18%;
   margin-top:-65px;
 }
@@ -2095,7 +2096,7 @@ width:3000px;
 
 #test1{
   width:300%;
-  margin-left:-97%;
+  margin-left:-90%;
   margin-top:-10%;
 }
 
@@ -2157,9 +2158,8 @@ display:none;
 #mtext{
   width:140%;
   font-size:14px;
-  float:center;
-  text-align:center;
-  margin-left:-18%;
+  text-align:left;
+  margin-left:-20%;
   margin-top:-65px;
 }
 
@@ -2167,6 +2167,7 @@ display:none;
   font-size:16px;
   width:165%;
   margin-left:-30%;
+  text-align:left;
 }
 
 #bodytext1{
@@ -2174,6 +2175,7 @@ display:none;
   width:165%;
   margin-top:-25%;
   margin-left:-30%;
+  text-align:left;
 }
 
 #reftext{
