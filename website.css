@@ -312,11 +312,12 @@ header{
   height: 700px;
 }
 
+
 .fullWidthbackground{
   position:absolute;
   display:block;
   margin-left:5%;
-  background-image: url("https://i.ibb.co/7QgJZLw/Screen-Shot-2020-04-03-at-9-11-23-PM.jpg");
+  background-image: url(screensocial.jpg);
   background-color:white;
   background-repeat:no-repeat;
   background-size:cover;
@@ -377,10 +378,11 @@ text-decoration: none!important;
 arrrow{
   position:relative;
   display:inline-block;
-  width: 30px;
+  width: 20px;
   height: 10px;
   margin-left:48%;
   margin-top:16%;
+  z-index:1;
 }
 
 arrrow:after,
@@ -562,7 +564,7 @@ arrrow{
 .flower{
   width:48%;
   margin-top:-21%;
-  fill:#fcceb3;
+  fill:#E6B5E4;
   margin-left:-65.7%;
   position:absolute;
   display:inline-block;
@@ -577,7 +579,7 @@ arrrow{
    display:inline-block;
   width:32.4%;
   bottom:-22.9%;
-  fill:#fcceb3;
+  fill:#E6B5E4;
   margin-left:70%;
   margin-top:-10%;
   position:relative;
