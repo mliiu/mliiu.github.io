@@ -327,6 +327,7 @@ header{
   margin-top:10%;
   z-index:0;
 }
+
 .fullWidth{
    display:inline;
   width:155%;
@@ -374,6 +375,12 @@ text-decoration: none!important;
 
 }
 
+.fullWidth a:hover{
+  text-decoration: none;
+  color:#1410DD;
+  -webkit-text-stroke-color:#1410DD;
+
+}
 
 arrrow{
   position:relative;
