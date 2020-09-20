@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maggie Liu</title>
+    <link rel="stylesheet" href="website.css">
+    <meta charset="UTF-8">
+       <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+       <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <div class="w3-container w3-center w3-animate-opacity">
+        <div id="mydiv">
+          <div id="mydivheader">
+        <center>Maggie Liu</center>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="links">
+        <a href="index.html" style="color:#f2af1d;text-decoration:none">Home</a>
+      </div>
+      <div class="links">
+        <a href="Portfolio.html" style="color:#88e220;text-decoration:none">Portfolio</a>
+      </div>
+      <div class="links">
+        <a href="misc.html" style="color:#E4ADE2;text-decoration:none">Misc</a>
+      </div>
+      <div class="links">
+        <a href="about.html" style="color:#45d2f0;text-decoration:none">About</a>
+      </div></div>
+
+    <style>html{
+       width: 100%;
+       overflow-x: hidden !important;
+
+    }
+
+.nav{
+  height:12px;
+}
+
+
+
+
+    @media only screen and (max-width: 500px) and (min-width: 1px) {
+      html{
+        width:100vw;
+        height:100vh;
+        overflow-x:hidden;
+        margin:0;
+        padding:0;
+      }
+      body{
+        overflow-x:hidden !important;
+      }
+      #photo4{
+        display:none;
+      }
+      iframe{
+        width:300px;
+        height:300px;
+      }
+
+      #craigslisttitle{
+        font-size:40px;
+        margin-top:-20px;
+        line-height: 52px;
+
+      }
+      #votetext{
+        text-align:left;
+      }
+
+    }
+
+
+
+    </style>
+
+    <div id="menu-toggle" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
+      <div class="overlay-content">
+                <a href="index.html" style="color:#f2af1d;font-size:34px;">Home</a>
+                <a href="Portfolio.html" style="color:#88e220;font-size:34px";>Portfolio</a>
+                <a href="misc.html"style="color:#E4ADE2;font-size:34px">Misc</a>
+                <a href="about.html"style="color:#45d2f0;font-size:34px">About</a>
+            	<br><br>	<font style="color:gray; font-size:14px;font-family:compagnon">&#9996; Created by Maggie ✨</font>
+              </div>
+            </div>
+
+            <div class="menu-toggle">
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+</div>
+<br><br><br><br><br>
+<div id="craigslisttitle"><strong>Finding Love In a Hopeless E-Space
+</strong></div>
+<br>
+
+
+<br><br>
+<br><br>
+
+<div class="carousel" >
+<font size="4">
+  <center>
+    <div id="votetext" style="text-align:left; font-size:17px"><font color="gray"><strong>Visualizing the Craigslist’s Missed Connection website to see how people were searching for love during quarantine</strong><br></font>
+<br><center><img src="https://media4.giphy.com/media/QXUrl96ZaDmFnP1Fqs/giphy.gif"style="width:110px"></img></center>
+<br>I’ve always been fascinated in the suspicious parts of crafting an online persona. Catfishing? Scamming? What about when it comes to finding love on the internet, maybe you’ll come across both? The Missed Connection forum on Craigslist is one of those hidden gems on the internet. The intention is similar to that of a “lost and found”, people posting looking for someone they felt a lost connection with in real life. Maybe these fleeting instances are even more cherished during 2020, a time when we can’t go out and socialize. How many people are searching for a Missed Connection online? Or maybe its a digital archive of bots. Lots of bots. And the internet truly is a desolate place.
+<br><br><strong>Tools:</strong> Excel, MySQL, Tableau
+</div>
+<br>
+  <center><font size="6.8vw" font face="arial" style="fill:black"><strong><div id="craigslist">Research</div></strong></font>
+<div id="" data-aos="fade-up">
+<div id="votetext" style="text-align:left; font-size:17px" ><br><br>
+<br><br>  I chose to scrape the<strong> NYC Craigslist Missed Connection </strong>website because of the high volume of submissions in an urban city, a caveat being that listings have expiration dates. I think of this dataset as a sample size of a typical day of Craigslist Missed Connection postings.
+<br><br>I retrieved around 400 rows of data and then wrote queries to analyze the table. My intention was to use <strong>MySQL/XAMPP</strong> to analyze the data and content of the user submissions after extracting necessary information. I was able to grab the following elements in a listing:
+<br><br>
+<font style="text-align:left;"><li>Headline</li>
+<li>URL</li>
+<li>Date</li>
+<li>Neighborhood</li>
+<li>Message</li></font>
+</div>
+<br>
+  <img src="https://i.ibb.co/r7y1nNx/Screen-Shot-2020-09-20-at-1-44-56-PM.png" width="150%" height="130%" style="margin-left:-26%"></img>
+<font style="color:gray" size="3vw">Craigslist Missed Connection post template alongside the column names in SQL</font>
+
+</div>
+
+<br>
+  <center><font size="6.8vw" font face="arial" style="color:black"><strong><div id="craigslist">Visualization</div></strong></font>
+<div id="" data-aos="fade-up" >
+<br>
+<br><br>
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<strong> 1. Most Common Words</strong><br><br>
+After exporting from SQL, I used an excel formula to identify the most common words found in a Missed Connection message. I’ve always liked the visual elements of a <i>word cloud</i>, which breaks down the <strong>most common words</strong> and shows the <strong>frequency of the word by its text size</strong>. Here’s my word cloud:
+<center>
+  <div style="width: 1200px; height: 500px; overflow: hidden;margin-left:-22%;margin-top:0%">
+  <iframe src="https://public.tableau.com/views/MissedConnections/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?:embed=yes&:showVizHome=no" width="900"
+  height="590" style="border:none" scrolling="no">
+  </iframe></div>
+</p>
+</div>
+<font style="color:gray" size="2.5vw">The phrase “looking” is the most common verb action amongst posters, shown by the text-size and color gradient
+</font>
+<br>
+
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<br><br><br><strong> 2. Location</strong><br><br>
+<i>Where are the most frequent origins of a Missed Connection? </i>Particularly, NYC has many boroughs and I wanted to look into the most popular location sources. Using SQL, I was able to pull this information then visualize it with Tableau on an interactive map.
+<center>  <br><img src="https://i.ibb.co/gRTCbKX/Untitled-1.png" width="90%" height="90%" style="margin-left:%"></img></center>
+</p>
+</div>
+<font style="color:gray" size="2.5vw">SQL query used to sort listings by neighborhoods</font>
+<br><br>
+  <div style="width: 1200px; height: 540px; overflow: hidden;margin-left:-53%;margin-top:0%">
+  <iframe src="https://public.tableau.com/views/AirbnbListingsNYCMap_15998850178190/Dashboard2?:language=en&:display_count=y&:origin=viz_share_link?:embed=yes&:showVizHome=no" width="900"
+  height="590" style="border:none" scrolling="no">
+</iframe></div>
+<font style="color:gray" size="2.5vw">After converting neighborhoods to consolidated Zip Codes, the map visualizes the SQL report</font>
+</div>
+
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<br><br><br><strong> 3. How Many Bots?</strong><br><br>
+When looking through the initial report, I realized there were many repeat posts of similar listings and obvious indications of spam bots or possible phishing activity. When I say bot, this means it was most likely not written by a real person intending to search for someone on the forum. I started by pulling a list of listings that had more than one copy:
+<center>  <br><img src="https://miro.medium.com/max/1267/1*oPnJRILp9927zKWf_r7WRA.png" width="70%" height="70%" style="margin-left:%"></img></center>
+</div>
+<font style="color:gray" size="2.5vw">SQL query to find repeat listings</font><br><br>
+<div style="width: 1300px; height: 550px; overflow: hidden;margin-left:-59%;margin-top:0%">
+<iframe src="https://public.tableau.com/views/MissedConnectionBots/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link?:embed=yes&:showVizHome=no" width="1050"
+height="590" style="border:none" scrolling="no">
+</iframe></div>
+
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<br><br><br><br><strong> 4. Gender Breakdown</strong><br><br>
+I wanted to learn more about the demographic data since most postings specified gender identity or preferences. Otherwise unambiguous postings were assigned to “unknown”.
+</div>
+<br>
+<img src="https://miro.medium.com/max/1540/1*3U81uTBZD_9-uD4nzNky7Q.png" width="110%" height="110%" style="margin-left:-5%"></img>
+<font style="color:gray" size="3vw">Most posters were male identifying (M) at ~67%.</font>
+<br><br><br><br>
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+Male-identifying posters were the most frequent of Missed Connection searchers. Of Males, 62.16% were in search of a female, 16.22% in search of males, and 16.22% undisclosed. Of those who identified as females, 65% were in search of males and 35% were undisclosed.
+<br>
+<img src="https://miro.medium.com/max/1540/1*Yu3slY9NZwsCO8dWJY4JoQ.png" width="70%" height="70%" style="margin-left:17%"></img>
+</div>
+
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<br><br><br><br><strong> 5. Quarantine Themed</strong><br><br>
+Lastly, I wanted to see if the pandemic influenced any of these Missed Connection searches. I was surprised to see only a small fraction of posts related to pandemic circumstances. Here a few of the key themes (hover).
+
+<div style="width: 600px; height: 180px; overflow: hidden;margin-left:22%;margin-top:5%">
+<iframe src="https://public.tableau.com/views/Book132_16004975224050/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?:embed=yes&:showVizHome=no" width="600"
+height="500" style="border:none" scrolling="no">
+</iframe></div>
+For example, one store-related listing:
+<br><br>
+</div>
+<img src="https://i.ibb.co/J5dtDLC/quote.png
+" width="120%" height="100%" style="margin-left:-1%"></img>
+<div id="votetext" style="text-align:left; font-size:17px" ><br>
+  <div id="" data-aos="fade-up">
+<br><br><br><br><strong> Takeaways</strong><br><br>
+Apparently people and even bots are searching for a human connection! I feel like I’ve learned a lot with this data project. Am I better from it? I’m not sure. As I was mid-typing this article I experienced the epicenter of an earthquake in Los Angeles, so I’m taking that as a sign that some information on the internet should not be explored in depth.
+<br><br>This was my first attempt at using SQL/Tableau for a small data project. While it was mainly a text-heavy set, it was a fun and good practice diving into a part of the internet that appeared devoid of real human interaction.
+</div></div>
+
+  <script>
+  //Make the DIV element draggagle:
+  dragElement(document.getElementById("mydiv"));
+
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      /* if present, the header is where you move the DIV from:*/
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      /* otherwise, move the DIV from anywhere inside the DIV:*/
+      elmnt.onmousedown = dragMouseDown;
+    }
+
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // get the mouse cursor position at startup:
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      // call a function whenever the cursor moves:
+      document.onmousemove = elementDrag;
+    }
+
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // calculate the new cursor position:
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      // set the element's new position:
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+
+    function closeDragElement() {
+      /* stop moving when mouse button is released:*/
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+  </script>
+
+  <script>
+  AOS.init({
+    easing: 'ease-in-quad',
+  });
+  </script>
+
+  <script>
+  function openNav() {
+    document.getElementById("menu-toggle").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("menu-toggle").style.width = "0%";
+  }
+  </script>
+</body>
+<html>

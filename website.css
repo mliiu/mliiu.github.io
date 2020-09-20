@@ -1923,6 +1923,18 @@ font-family: 'Goudy Bookletter 1911', serif;
   margin-left:-64%;
 }
 
+#craigslisttitle{
+  position:auto;
+  width:230%;
+  float:center;
+  font-family: 'arial', bold,serif;
+  font-size: 3.5vw;
+  -webkit-text-fill-color: #d8afb9 ; /* Will override color (regardless of order) */
+  text-align: center;
+  margin-left:-64%;
+}
+
+
 #votebg{
   background-image: url("https://i.ibb.co/PDKf5zg/image-2.png");
   background-repeat:no-repeat;
@@ -1941,8 +1953,9 @@ width:3000px;
   font-size:14px;
   font-family:'lanord';
   float:center;
+  color:gray;
   text-align:center;
-  margin-left:-18%;
+  margin-left:-23%;
   margin-top:-65px;
 }
 #votetest{
@@ -1952,6 +1965,13 @@ width:3000px;
   -webkit-text-fill-color: #ffffff00 ;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
+
+}
+#craigslist{
+  width:300%;
+  margin-left:-102%;
+  margin-top:5%;
+  -webkit-text-fill-color: #df859b ;
 
 }
 
