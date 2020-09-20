@@ -1953,6 +1953,15 @@ width:3000px;
   font-size:14px;
   font-family:'lanord';
   float:center;
+  text-align:center;
+  margin-left:-23%;
+  margin-top:-65px;
+}
+#cgtext{
+  width:140%;
+  font-size:14px;
+  font-family:'lanord';
+  float:center;
   color:gray;
   text-align:center;
   margin-left:-23%;

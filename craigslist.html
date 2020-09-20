@@ -78,7 +78,7 @@
         line-height: 52px;
 
       }
-      #votetext{
+      #cgtext{
         text-align:left;
       }
 
@@ -115,7 +115,7 @@
 <div class="carousel" >
 <font size="4">
   <center>
-    <div id="votetext" style="text-align:left; font-size:17px"><font color="gray"><strong>Visualizing the Craigslist’s Missed Connection website to see how people were searching for love during quarantine</strong><br></font>
+    <div id="cgtext" style="text-align:left; font-size:17px"><font color="gray"><strong>Visualizing the Craigslist’s Missed Connection website to see how people were searching for love during quarantine</strong><br></font>
 <br><center><img src="https://media4.giphy.com/media/QXUrl96ZaDmFnP1Fqs/giphy.gif"style="width:110px"></img></center>
 <br>I’ve always been fascinated in the suspicious parts of crafting an online persona. Catfishing? Scamming? What about when it comes to finding love on the internet, maybe you’ll come across both? The Missed Connection forum on Craigslist is one of those hidden gems on the internet. The intention is similar to that of a “lost and found”, people posting looking for someone they felt a lost connection with in real life. Maybe these fleeting instances are even more cherished during 2020, a time when we can’t go out and socialize. How many people are searching for a Missed Connection online? Or maybe its a digital archive of bots. Lots of bots. And the internet truly is a desolate place.
 <br><br><strong>Tools:</strong> Excel, MySQL, Tableau
@@ -123,7 +123,7 @@
 <br>
   <center><font size="6.8vw" font face="arial" style="fill:black"><strong><div id="craigslist">Research</div></strong></font>
 <div id="" data-aos="fade-up">
-<div id="votetext" style="text-align:left; font-size:17px" ><br><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br><br>
 <br><br>  I chose to scrape the<strong> NYC Craigslist Missed Connection </strong>website because of the high volume of submissions in an urban city, a caveat being that listings have expiration dates. I think of this dataset as a sample size of a typical day of Craigslist Missed Connection postings.
 <br><br>I retrieved around 400 rows of data and then wrote queries to analyze the table. My intention was to use <strong>MySQL/XAMPP</strong> to analyze the data and content of the user submissions after extracting necessary information. I was able to grab the following elements in a listing:
 <br><br>
@@ -144,7 +144,7 @@
 <div id="" data-aos="fade-up" >
 <br>
 <br><br>
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 <strong> 1. Most Common Words</strong><br><br>
 After exporting from SQL, I used an excel formula to identify the most common words found in a Missed Connection message. I’ve always liked the visual elements of a <i>word cloud</i>, which breaks down the <strong>most common words</strong> and shows the <strong>frequency of the word by its text size</strong>. Here’s my word cloud:
 <center>
@@ -158,7 +158,7 @@ After exporting from SQL, I used an excel formula to identify the most common wo
 </font>
 <br>
 
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 <br><br><br><strong> 2. Location</strong><br><br>
 <i>Where are the most frequent origins of a Missed Connection? </i>Particularly, NYC has many boroughs and I wanted to look into the most popular location sources. Using SQL, I was able to pull this information then visualize it with Tableau on an interactive map.
 <center>  <br><img src="https://i.ibb.co/gRTCbKX/Untitled-1.png" width="90%" height="90%" style="margin-left:%"></img></center>
@@ -173,7 +173,7 @@ After exporting from SQL, I used an excel formula to identify the most common wo
 <font style="color:gray" size="2.5vw">After converting neighborhoods to consolidated Zip Codes, the map visualizes the SQL report</font>
 </div>
 
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 <br><br><br><strong> 3. How Many Bots?</strong><br><br>
 When looking through the initial report, I realized there were many repeat posts of similar listings and obvious indications of spam bots or possible phishing activity. When I say bot, this means it was most likely not written by a real person intending to search for someone on the forum. I started by pulling a list of listings that had more than one copy:
 <center>  <br><img src="https://miro.medium.com/max/1267/1*oPnJRILp9927zKWf_r7WRA.png" width="70%" height="70%" style="margin-left:%"></img></center>
@@ -184,7 +184,7 @@ When looking through the initial report, I realized there were many repeat posts
 height="590" style="border:none" scrolling="no">
 </iframe></div>
 
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 <br><br><br><br><strong> 4. Gender Breakdown</strong><br><br>
 I wanted to learn more about the demographic data since most postings specified gender identity or preferences. Otherwise unambiguous postings were assigned to “unknown”.
 </div>
@@ -192,13 +192,13 @@ I wanted to learn more about the demographic data since most postings specified 
 <img src="https://miro.medium.com/max/1540/1*3U81uTBZD_9-uD4nzNky7Q.png" width="110%" height="110%" style="margin-left:-5%"></img>
 <font style="color:gray" size="3vw">Most posters were male identifying (M) at ~67%.</font>
 <br><br><br><br>
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 Male-identifying posters were the most frequent of Missed Connection searchers. Of males, 62.16% were in search of a female, 16.22% in search of males, and 16.22% undisclosed. Of those who identified as females, 65% were in search of males and 35% were undisclosed.<br>
 <br>
 <img src="https://miro.medium.com/max/1540/1*Yu3slY9NZwsCO8dWJY4JoQ.png" width="70%" height="70%" style="margin-left:17%"></img>
 </div>
 
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
 <br><br><br><br><strong> 5. Quarantine Themed</strong><br><br>
 Lastly, I wanted to see if the pandemic influenced any of these Missed Connection searches. I was surprised to see only a small fraction of posts related to pandemic circumstances. Here a few of the key themes (hover).
 
@@ -211,7 +211,7 @@ For example, one store-related listing:
 </div>
 <img src="https://i.ibb.co/J5dtDLC/quote.png
 " width="120%" height="100%" style="margin-left:-1%"></img>
-<div id="votetext" style="text-align:left; font-size:17px" ><br>
+<div id="cgtext" style="text-align:left; font-size:17px" ><br>
   <div id="" data-aos="fade-up">
 <br><br><br><br><strong> Takeaways</strong><br><br>
 Apparently people and even bots are searching for a human connection! I feel like I’ve learned a lot with this data project. Am I better from it? I’m not sure. As I was mid-typing this article I experienced the epicenter of an earthquake in Los Angeles, so I’m taking that as a sign that some information on the internet should not be explored in depth.
