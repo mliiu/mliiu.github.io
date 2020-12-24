@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maggie Liu</title>
+    <link rel="stylesheet" href="website.css">
+    <meta charset="UTF-8">
+       <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+       <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <div class="w3-container w3-center w3-animate-opacity">
+        <div id="mydiv">
+          <div id="mydivheader">
+        <center>Maggie Liu</center>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="links">
+        <a href="index.html" style="color:#f2af1d;text-decoration:none">Home</a>
+      </div>
+      <div class="links">
+        <a href="Portfolio.html" style="color:#88e220;text-decoration:none">Portfolio</a>
+      </div>
+      <div class="links">
+        <a href="misc.html" style="color:#E4ADE2;text-decoration:none">Misc</a>
+      </div>
+      <div class="links">
+        <a href="about.html" style="color:#45d2f0;text-decoration:none">About</a>
+      </div></div>
+
+    <style>html{
+       width: 100%;
+       overflow-x: hidden !important;
+
+    }
+
+.nav{
+  height:12px;
+}
+
+#foodtitle{
+  font-family:'Ogg';
+  width:50vw;
+  font-size:5.5vw;
+  margin-left:-80%;
+  margin-top:6%;
+
+}
+
+#foodtitle2{
+  font-family:'Ogg';
+  width:50vw;
+  font-size:20px;
+    margin-left:-38%;
+  text-align:left;
+
+
+}
+
+#ftext{
+  font-family:'Ogg';
+  text-align:left;
+  font-size:22px;
+  width:50vw;
+}
+
+
+
+
+    @media only screen and (max-width: 500px) and (min-width: 1px) {
+      html{
+        width:100vw;
+        height:100vh;
+        overflow-x:hidden;
+        margin:0;
+        padding:0;
+      }
+      body{
+        overflow-x:hidden !important;
+      }
+
+      iframe{
+        width:915%;
+        height:122%;
+        margin-left:-53%;
+margin-bottom: -14% !important;
+padding-top:-400%;
+      }
+
+
+
+      #foodtitle{
+        font-size:28px;
+        margin-top:-20px;
+        line-height: 102px;
+
+      }
+      #foodtitle2{
+        font-size:28px;
+        margin-top:-20px;
+        line-height: 102px;
+
+      }
+      #ftext{
+        text-align:left;
+        font-size:14px !important;
+        width:169%;
+        margin-left:-35%;
+      }
+
+    }
+
+
+
+    </style>
+
+    <div id="menu-toggle" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-size:64px">&times;</a>
+      <div class="overlay-content">
+                <a href="index.html" style="color:#f2af1d;font-size:34px;">Home</a>
+                <a href="Portfolio.html" style="color:#88e220;font-size:34px";>Portfolio</a>
+                <a href="misc.html"style="color:#E4ADE2;font-size:34px">Misc</a>
+                <a href="about.html"style="color:#45d2f0;font-size:34px">About</a>
+            	<br><br>	<font style="color:gray; font-size:14px;font-family:compagnon">&#9996; Created by Maggie ✨</font>
+              </div>
+            </div>
+
+            <div class="menu-toggle">
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+</div>
+<br><br><br><br><br>
+<div id="foodtitle"><strong>Food Accessibility
+</strong></div>
+<br>
+
+<img src="foodbg.png" alt="color background" style="position:absolute;width:130%;margin-top:-70%;margin-left:30%;z-index:-1000;">
+
+<br><br>
+<br>
+
+<div class="carousel" >
+<font size="5">
+    <div id="foodtitle2"><font color="black"><strong>Reimagining a Community Food Network</strong><br>Acumen/IDEO Coursework by Maggie, Bei, Katherine, and Cherry<br></font>
+</div>
+<br>
+<br>
+<div id="ftext">
+  <center><img src="https://media2.giphy.com/media/67T9Iy3XatUBNhWUZh/source.gif"style="width:110px"></img></center>
+<br><center>Work in Progress...</center>
+</div>
+<br>
+  <center><font size="6.8vw" font face="arial" style="fill:black"><strong><div id="craigslist"></div></strong></font>
+<div id="" data-aos="fade-up">
+<div id="cgtext" style="text-align:left; font-size:17px" ><br><br>
+</div>
+<br>
+
+<font style="color:gray" size="3vw"></font>
+
+</div>
+
+
+  <script>
+  //Make the DIV element draggagle:
+  dragElement(document.getElementById("mydiv"));
+
+  function dragElement(elmnt) {
+    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      /* if present, the header is where you move the DIV from:*/
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      /* otherwise, move the DIV from anywhere inside the DIV:*/
+      elmnt.onmousedown = dragMouseDown;
+    }
+
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // get the mouse cursor position at startup:
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      // call a function whenever the cursor moves:
+      document.onmousemove = elementDrag;
+    }
+
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // calculate the new cursor position:
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      // set the element's new position:
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+
+    function closeDragElement() {
+      /* stop moving when mouse button is released:*/
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+  </script>
+
+  <script>
+  AOS.init({
+    easing: 'ease-in-quad',
+  });
+  </script>
+
+  <script>
+  function openNav() {
+    document.getElementById("menu-toggle").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("menu-toggle").style.width = "0%";
+  }
+  </script>
+</body>
+<html>
