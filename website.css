@@ -625,7 +625,7 @@ arrrow{
 .illus{
   position:absolute;
   width:16vw;
-  bottom:16%;
+  bottom:17%;
   left:75%;
   z-index:100;
   animation: draw 10000ms ease-in-out;
