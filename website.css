@@ -365,15 +365,15 @@ header{
   width:165%;
   height:90%;
   position:absolute;
-  margin-left: 20.8%;
-  bottom:810px;
+  margin-left: 17.8%;
+  bottom:840px;
   margin-bottom:0%;
   z-index:0 !important;
   float: left;
   text-align:left;
   font-family: "HappyTimes";
   font-weight:100;
-  font-size:2.6vw;
+  font-size:3vw;
   padding:15px;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
@@ -656,7 +656,7 @@ footer p {
   height:90px;
   transform: rotate(-30deg);
   width:120px;
-  margin-left:-91.7%;
+  margin-left:-95.7%;
   position:relative;
   display:inline-block;
 }
