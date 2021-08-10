@@ -1,4 +1,20 @@
 @font-face {
+  font-family: HappyTimes;
+  src: url(happy-times-NG_regular_master.otf);
+}
+
+@font-face {
+  font-family: HappyTimes2;
+  src: url(happy-times-NG_italic_master.otf);
+}
+
+@font-face {
+  font-family: Grotesk;
+  src: url(GroteskLight.otf);
+}
+
+
+@font-face {
   font-family: Nantes;
   src: url(NantesTrial-Light.otf);
 }
@@ -73,21 +89,29 @@ body{
   background: #E8E8E8;
   border: 2px solid #000;
 }
-
+footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  display: block;
+}
 
 #footer2{
   display:block;
   transition-duration:12s;
   width: 30%;
   height:100%;
-	top: 27%;
+	top: 28%;
   left:0%;
 	font-size: 1vw;
   position:fixed;
   color:blue;
   opacity:0.7;
   z-index:-1;
-  font-family: 'lanord',
+  font-family: 'Grotesk',
     serif;
 
 }
@@ -214,6 +238,7 @@ header{
   margin-top: 25px;
   margin-left:-30.5%;
   width: 220%;
+  font-family:'Grotesk'
   height: 40%;
   float:center;
   z-index:1;
@@ -227,10 +252,10 @@ header{
   height: 170%;
   float: left;
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   -webkit-transition: background-color 0.5s, margin top: 0.5s;
   transition: background-color 0.5s, margin-top 0.5s;
-  font-family: 'lanord', serif;
+  font-family: 'Grotesk', serif;
 }
 
 .links:hover{
@@ -273,11 +298,11 @@ header{
   width: 70%;
   margin-top:12%;
   text-align: center;
-  padding-bottom: 16%;
-  margin-left: -12%;
-  font-size: 2.5vw;
+  padding-bottom: 10%;
+  margin-left: -9.5%;
+  font-size: 1.8vw;
   font-weight:bolder;
-  font-family: 'amiri', bold,serif;
+  font-family: 'grotesk';
   color:#342C2E;
 }
 
@@ -328,22 +353,25 @@ header{
   background-size:cover;
   height:390px;
   width:1250px;
-  max-height:78%;
-  margin-top:10%;
+  max-height:0%;
+  margin-top:0%;
   z-index:0;
+  overflow-y: hidden;
 }
 
 .fullWidth{
    display:inline;
+  overflow-y: hidden;
   width:165%;
-  height:100%;
+  height:90%;
   position:absolute;
   margin-left: 20.8%;
-  margin-top: -19%;
+  bottom:810px;
+  margin-bottom:0%;
   z-index:0 !important;
   float: left;
   text-align:left;
-  font-family: "bretagne";
+  font-family: "HappyTimes";
   font-weight:100;
   font-size:3.55vw;
   padding:25px;
@@ -359,10 +387,12 @@ header{
 
 .column0{
   display:inline;
+    display:none;
   z-index:99;
   float: left;
+    overflow-x: hidden;
   width: 41%;
-  margin-top:0%;
+  margin-top:400%;
   margin-left:29%;
   font-family: 'mada', serif;
 text-decoration: none!important;
@@ -371,7 +401,7 @@ text-decoration: none!important;
 .column{
   float: left;
   width: 41%;
-  margin-top:20px;
+  margin-top:5%;
   margin-left:30%;
   text-align:center;
   font-family: 'mada', serif;
@@ -456,6 +486,7 @@ arrrow{
   float: left;
   width: 49%;
   margin-top:10px;
+    display:none;
   margin-left: 25.6%;
   text-align:center;
   font-family: 'amiri', serif;
@@ -562,6 +593,52 @@ arrrow{
 
 }
 
+footer {
+    display: block;
+    overflow: hidden;
+
+    position: fixed;
+    bottom: 0;
+}
+footer div{
+    display:flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 50%;
+    background-color: #B2CAA9;
+}
+
+.news-message a {
+    letter-spacing: 0.8px;
+}
+
+.news-message{
+    display : flex;
+    flex-shrink: 0;
+    height: 55px;
+    align-items: center;
+    animation: slide-left 60s linear infinite;
+  }
+
+footer p {
+    font-size: 16px;
+    font-family: 'Grotesk';
+    font-weight: 800;
+    padding-left: 0.5em;
+    color: white;;
+}
+
+@keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+}
+
 #about{
   position:inherit;
   display:block;
@@ -570,14 +647,16 @@ arrrow{
   width:125%;
   height:9%;
   font-size:1.2vw;
-  font-family:'lanord', serif;
+  font-family:'lanord';
 }
 
 .flower{
   width:48%;
-  margin-top:-21%;
-  fill:#FEB978;
-  margin-left:-65.7%;
+  margin-top:-11%;
+  height:17%;
+  transform: rotate(-30deg);
+  width:12%;
+  margin-left:-92.7%;
   position:absolute;
   display:inline-block;
 }
@@ -590,12 +669,14 @@ arrrow{
 .bored{
    display:inline-block;
   width:32.4%;
-  bottom:-22.9%;
+  bottom:-230px;
   fill:#FEB978;
-  margin-left:70%;
-  margin-top:-10%;
+  margin-left:87%;
+  width:9%;
+  height:6%;
   position:relative;
   z-index:1;
+
 }
 
 
@@ -1861,6 +1942,7 @@ font-family: 'Goudy Bookletter 1911', serif;
 
 .menu-toggle{
   display:none;
+  font-family:'Grotesk';
 }
 
 .overlay {
@@ -1880,6 +1962,7 @@ font-family: 'Goudy Bookletter 1911', serif;
   position: relative;
   top: 18%;
   width: 100%;
+  font-family:'Grotesk';
   text-align: center;
   margin-top: 30px;
 }
@@ -2016,10 +2099,10 @@ width:3000px;
 }
 @media only screen and (max-width: 6000px) and (min-width: 600px) {
   .fullWidthbackground{
-    width:90%;
-    margin-top:-120px;
-    height:65%;
-  }
+      width:90%;
+      margin-top:-120px;
+      height:65%;
+    }
 
   .fullWidth{
     margin-top:-110px;
@@ -2047,8 +2130,8 @@ width:3000px;
     display:none;
   }
   .fullWidthbackground{
+    position:absolute;
     width:90%;
-    top:175px;
     height:77%;
   }
   #mydiv{
@@ -2056,10 +2139,11 @@ width:3000px;
     margin-left:-42%;
   }
   .fullWidth{
-    top:-15%;
-    font-size: 7.1vw;
-    text-align:center;
-    padding:20px;
+    top:-94%;
+      position:relative;
+        font-size: 7.1vw;
+        text-align:center;
+        padding:20px;
   }
   .column0{
     margin-top:-16%;
@@ -2084,16 +2168,19 @@ width:3000px;
     display:none;
 
   }
+
   .flower{
-    top:90px;
-    margin-left:-21%;
-    width:70%;
-    display:run-in;
+    position: relative;
+    height:70px;
+    width:100px;
+    top:-240px;
+    left:-40px;
   }
   .bored{
-    width:50%;
-    margin-left:60%;
-    margin-top:40%;
+    position:relative;
+    width:18%;
+    right:11%;
+    top:90px;
   }
   .nav{
     display:none;
@@ -2105,6 +2192,7 @@ width:3000px;
     display:flex;
     width: 40px;
     position:absolute;
+    font-family:'Grotesk';
     margin-left:170%;
     margin-top:-25%;
     z-index: 100;
@@ -2293,21 +2381,17 @@ top:200px;
 
 
 .fullWidthbackground{
-  margin-top:-18%;
-  height:76%;
-
+  margin-top:500px;
+    height:76%;
 }
 .flower{
-  margin-top:-16%;
+  margin-top:-6%;
 }
 .fullWidth{
   margin-top:-20%;
-  font-size:27px;
-}
-arrrow{
-  margin-top:46%;
+    font-size:27px;
+  }
 
-}
 .column0,.column,.column2{
   margin-top:0%;
   display:none;
