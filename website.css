@@ -2171,16 +2171,16 @@ width:3000px;
 
   .flower{
     position: relative;
-    height:70px;
-    width:100px;
-    top:-240px;
+    height:50px;
+    width:80px;
+    top:-150px;
     left:-40px;
   }
   .bored{
     position:relative;
     width:18%;
     right:11%;
-    top:90px;
+    top:150px;
   }
   .nav{
     display:none;
@@ -2384,13 +2384,6 @@ top:200px;
   margin-top:500px;
     height:76%;
 }
-.flower{
-  position:relative;
-  margin-top:40%;
-  left:0%;
-  height:25%;
-  width:25%;
-}
 .fullWidth{
   margin-top:-55%;
     font-size:23px;
@@ -2399,10 +2392,6 @@ top:200px;
 .column0,.column,.column2{
   margin-top:0%;
   display:none;
-}
-.bored{
-  margin-top:14%;
-    position:relative;
 }
 }
 
