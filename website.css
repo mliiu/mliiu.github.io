@@ -2385,11 +2385,13 @@ top:200px;
     height:76%;
 }
 .flower{
-  margin-top:-6%;
+  margin-top:20%;
+  height:25%;
+  width:25%;
 }
 .fullWidth{
-  margin-top:-20%;
-    font-size:27px;
+  margin-top:-55%;
+    font-size:23px;
   }
 
 .column0,.column,.column2{
@@ -2398,7 +2400,7 @@ top:200px;
 
 }
 .bored{
-  margin-top:50%;
+  margin-top:15%;
 }
 }
 
