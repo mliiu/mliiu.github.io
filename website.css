@@ -302,7 +302,7 @@ header{
   margin-left: -9.5%;
   font-size: 1.8vw;
   font-weight:bolder;
-  font-family: 'grotesk';
+  font-family: 'ogg';
   color:#342C2E;
 }
 
@@ -374,7 +374,7 @@ header{
   font-family: "HappyTimes";
   font-weight:100;
   font-size:3.55vw;
-  padding:25px;
+  padding:15px;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
   }
@@ -2120,10 +2120,10 @@ width:3000px;
 @media only screen and (max-width: 600px) and (min-width: 1px) {
 
   #logo{
-    font-size:30px;
+    font-size:20px;
     margin-top:30%;
     width:100%;
-    margin-left:-17%;
+    margin-left:-25%;
   }
 
   #navbar, #footer2{
@@ -2141,9 +2141,11 @@ width:3000px;
   .fullWidth{
     top:-94%;
       position:relative;
-        font-size: 7.1vw;
+        font-size: 7vw;
         text-align:left;
         padding:20px;
+        left:-27px;
+        width:200%;
   }
   .column0{
     margin-top:-16%;
@@ -2186,7 +2188,7 @@ width:3000px;
       width:80px;
       height:60px;
       right:75%;
-      top:150px;
+      top:120px;
 
     }
   .nav{
@@ -2390,10 +2392,11 @@ top:200px;
 .fullWidthbackground{
   margin-top:500px;
     height:76%;
+
 }
 .fullWidth{
-  margin-top:-55%;
-    font-size:23px;
+  margin-top:-64%;
+    font-size:20px;
   }
 
 .column0,.column,.column2{
