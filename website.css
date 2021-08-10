@@ -2173,7 +2173,11 @@ width:3000px;
     width:80px;
     height:100px;
     right:11%;
-    top:340px;
+    top:370px;
+  }
+
+  .news-message{
+    height:70px;
   }
 
 
