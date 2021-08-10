@@ -2385,7 +2385,9 @@ top:200px;
     height:76%;
 }
 .flower{
-  margin-top:20%;
+  position:relative;
+  margin-top:40%;
+  left:0%;
   height:25%;
   width:25%;
 }
@@ -2397,10 +2399,10 @@ top:200px;
 .column0,.column,.column2{
   margin-top:0%;
   display:none;
-
 }
 .bored{
-  margin-top:15%;
+  margin-top:14%;
+    position:relative;
 }
 }
 
