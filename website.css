@@ -236,7 +236,7 @@ header{
 .nav{
   position: absolute;
   margin-top: 25px;
-  margin-left:-30.5%;
+  margin-left:-20.5%;
   width: 220%;
   font-family:'Grotesk'
   height: 40%;
@@ -247,12 +247,12 @@ header{
 
 
 .links{
-  margin-left: 11%;
+  margin-left: 6%;
   position:auto;
   height: 170%;
   float: left;
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   -webkit-transition: background-color 0.5s, margin top: 0.5s;
   transition: background-color 0.5s, margin-top 0.5s;
   font-family: 'Grotesk', serif;
@@ -338,8 +338,8 @@ header{
 #container{
   margin: auto;
   position: absolute;
-  width: 50%;
-  height: 700px;
+  width: 46%;
+  height: 720px;
 }
 
 
@@ -352,7 +352,7 @@ header{
   background-repeat:no-repeat;
   background-size:cover;
   height:390px;
-  width:1250px;
+  width:1200px;
   max-height:0%;
   margin-top:0%;
   z-index:0;
@@ -605,7 +605,9 @@ footer div{
     flex-wrap: nowrap;
     white-space: nowrap;
     min-width: 50%;
-    background-color: #B2CAA9;
+    background-image:url('footerbg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .news-message a {
@@ -669,7 +671,7 @@ footer p {
 .bored{
    display:inline-block;
   width:32.4%;
-  bottom:-230px;
+  bottom:-380px;
   fill:#FEB978;
   margin-left:87%;
   width:9%;
