@@ -617,7 +617,7 @@ footer div{
 .news-message{
     display : flex;
     flex-shrink: 0;
-    height: 55px;
+    height: 80px;
     align-items: center;
     animation: slide-left 60s linear infinite;
   }
@@ -2181,7 +2181,8 @@ width:3000px;
   }
 
   .news-message{
-    height:70px;
+    height:120px;
+    font-size: 40px;
   }
 
 
