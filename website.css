@@ -557,7 +557,7 @@ arrrow{
   position:absolute;
   index:1;
   margin-left:107%;
-  margin-top:-26%;
+  margin-top:-35%;
   width:26vw;
   height:18vw;
   border-style:solid;
@@ -711,8 +711,8 @@ footer p {
 .illus{
   position:absolute;
   width:16vw;
-  bottom:17%;
-  left:75%;
+  bottom:-35%;
+  left:65%;
   z-index:100;
   animation: draw 10000ms ease-in-out;
 }
@@ -2358,26 +2358,19 @@ top:200px;
 }
 .box{
   font-size:20px;
-
-}
-.box2{
-  margin-left:45px;
-  margin-top:-10px;
-  width:200%;
-  font-style: Mada;
 }
 
 #photo2{
-  margin-top:250px;
+  margin-top:100%;
   margin-left:40px;
-  width:170px;
-  height:110px;
+  width:190px;
+  height:140px;
 }
 
 .illus{
-  margin-left:-30px;
-  top:96%;
-  margin-left:-140%;
+  margin-left:-120px;
+  top:100%;
+  margin-left:-60%;
   width:100px;
 }
 #a24title{
@@ -2419,10 +2412,10 @@ top:200px;
           margin-top:-40px;
         }
         .illus{
-            margin-bottom:-150px;
+            margin-bottom:-100px;
         }
         #photo2{
-          margin-top:20px;
+          margin-top:-200px;
         }
         }
 
