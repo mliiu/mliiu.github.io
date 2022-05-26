@@ -331,7 +331,7 @@ header{
   font-family:'HappyTimes';
   width: 160%;
   margin-top:36%;
-  margin-left:28%;
+  margin-left:25%;
 }
 
 #misc:hover{
@@ -557,9 +557,9 @@ arrrow{
   position:absolute;
   index:1;
   margin-left:87%;
-  margin-top:-45%;
-  width:26vw;
-  height:18vw;
+  margin-top:-42%;
+  width:21vw;
+  height:14vw;
   border-style:solid;
   border-color:pink;
   border-radius:3px;
