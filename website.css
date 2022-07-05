@@ -236,7 +236,7 @@ header{
 .nav{
   position: absolute;
   margin-top: 25px;
-  margin-left:-30.5%;
+  margin-left:-22.5%;
   width: 220%;
   font-family:'Grotesk'
   height: 40%;
@@ -247,12 +247,12 @@ header{
 
 
 .links{
-  margin-left: 11%;
+  margin-left: 10%;
   position:auto;
   height: 170%;
   float: left;
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   -webkit-transition: background-color 0.5s, margin top: 0.5s;
   transition: background-color 0.5s, margin-top 0.5s;
   font-family: 'Grotesk', serif;
@@ -317,19 +317,21 @@ header{
   font-size:1.2vw;
   float:left;
   width: 105%;
-  max-width:55%;
-  margin-top:27%;
-  margin-bottom:-55%;
-  margin-left:23%;
+  max-width:200%;
+  margin-top:40%;
+  margin-bottom:-15%;
+  margin-left:40%;
 }
 
 #misc{
   position:relative;
   display:inline;
   float:left;
+  font-size: 18px;
+  font-family:'HappyTimes';
   width: 160%;
   margin-top:36%;
-  margin-left:4%;
+  margin-left:25%;
 }
 
 #misc:hover{
@@ -338,8 +340,8 @@ header{
 #container{
   margin: auto;
   position: absolute;
-  width: 50%;
-  height: 700px;
+  width: 46%;
+  height: 720px;
 }
 
 
@@ -352,7 +354,7 @@ header{
   background-repeat:no-repeat;
   background-size:cover;
   height:390px;
-  width:1250px;
+  width:1200px;
   max-height:0%;
   margin-top:0%;
   z-index:0;
@@ -505,11 +507,12 @@ arrrow{
 .columnx {
   display:none;
   float: left;
-  width: 40%;
-  padding:2.1%;
+  width: 33%;
+  padding:1.1%;
   padding-bottom:1%;
-  margin-left:13.5%;
-  margin-right:-14%;
+  margin-left:11%;
+  margin-right:auto;
+  text-align:center;
   margin-top:4%;
   margin-bottom:-2%;
 }
@@ -553,10 +556,10 @@ arrrow{
 #photo2{
   position:absolute;
   index:1;
-  margin-left:107%;
-  margin-top:-26%;
-  width:26vw;
-  height:18vw;
+  margin-left:87%;
+  margin-top:-42%;
+  width:21vw;
+  height:14vw;
   border-style:solid;
   border-color:pink;
   border-radius:3px;
@@ -605,7 +608,9 @@ footer div{
     flex-wrap: nowrap;
     white-space: nowrap;
     min-width: 50%;
-    background-color: #B2CAA9;
+    background-image:url('footerbg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .news-message a {
@@ -615,7 +620,7 @@ footer div{
 .news-message{
     display : flex;
     flex-shrink: 0;
-    height: 55px;
+    height: 80px;
     align-items: center;
     animation: slide-left 60s linear infinite;
   }
@@ -669,7 +674,7 @@ footer p {
 .bored{
    display:inline-block;
   width:32.4%;
-  bottom:-230px;
+  bottom:-300px;
   fill:#FEB978;
   margin-left:87%;
   width:9%;
@@ -706,8 +711,8 @@ footer p {
 .illus{
   position:absolute;
   width:16vw;
-  bottom:17%;
-  left:75%;
+  bottom:-35%;
+  left:65%;
   z-index:100;
   animation: draw 10000ms ease-in-out;
 }
@@ -2179,7 +2184,8 @@ width:3000px;
   }
 
   .news-message{
-    height:70px;
+    height:100px;
+    font-size: 40px;
   }
 
 
@@ -2254,7 +2260,7 @@ width:3000px;
 }
 
 iframe{
-  height:140px;
+  height:100px;
 }
 audio{
   width:70%;
@@ -2352,26 +2358,19 @@ top:200px;
 }
 .box{
   font-size:20px;
-
-}
-.box2{
-  margin-left:45px;
-  margin-top:-10px;
-  width:200%;
-  font-style: Mada;
 }
 
 #photo2{
-  margin-top:250px;
+  margin-top:30%;
   margin-left:40px;
-  width:170px;
-  height:110px;
+  width:190px;
+  height:140px;
 }
 
 .illus{
-  margin-left:-30px;
-  top:96%;
-  margin-left:-140%;
+  margin-left:-120px;
+  top:100%;
+  margin-left:-60%;
   width:100px;
 }
 #a24title{
@@ -2413,10 +2412,10 @@ top:200px;
           margin-top:-40px;
         }
         .illus{
-            margin-bottom:-150px;
+            margin-bottom:-100px;
         }
         #photo2{
-          margin-top:20px;
+          margin-top:-200px;
         }
         }
 
