@@ -16,6 +16,9 @@
 <link href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+<?php
+    header('X-Frame-Options: GOFORIT');
+?>
 </head>
 
 <body>
@@ -73,15 +76,11 @@
 }
 </style>
 
-
 <div class="carousel" >
 <font size="4">
   <center>
     <div id="a24text">I enjoy watching <a href="https://www.a24films.com" target="_blank" style="color:black"> A24 films</a> because all of their movies are able to perfectly encapsulate the feeling of a location in its storytelling. I've created an interactive map documenting where <strong>A24</strong> films are popular in the U.S. based on <strong>Google Trend</strong> searches and demographics during the films' domestic release dates.  </div>
-
-<br>
-<div class="mapWrapper">
-<iframe src="https://editor.p5js.org/maggieliu/embed/2Mn9cH2qg" style="margin-left:-210px;clip:rect(60px,1100px,650px,-350px);width:160%;height:160%;overflow:hidden;" scrolling="no" frameborder="0"></iframe>
+<iframe src="http://editor.p5js.org/maggieliu/embed/2Mn9cH2qg" sandbox="allow-scripts" style="margin-left:-160px;clip:rect(60px,1100px,650px,-350px);width:160%;height:600px;overflow:hidden;" scrolling="no" frameborder="0"></iframe>
 </div>
 <br><br><br><br><br>
 <div="a24text">
