@@ -2085,6 +2085,7 @@ width:3000px;
     text-align:left;
   margin-left:-18%;
   margin-top:-65px;
+    margin-bottom:20px;
 }
 
 #photo4{
@@ -2261,6 +2262,10 @@ width:3000px;
 
 iframe{
   height:100px;
+}
+
+#intro{
+  margin-top:-120%;
 }
 audio{
   width:70%;
