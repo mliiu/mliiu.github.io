@@ -1,0 +1,134 @@
+@font-face {
+  font-family: bretagne;
+  src: url(bretagne.woff2);
+}
+
+body{
+  background-color:white;
+  font-family: bretagne;
+  font-size:3vw;
+  color:black;
+
+}
+
+.header{
+  font-family: bretagne;
+  font-size:3.5vw;
+  font-weight:bold;
+  position:fixed;
+  margin-top:2%;
+  left:50%;
+  transform: translate(-50%,0);
+  z-index:1;
+  color: black;
+}
+
+
+.picture{
+  z-index: 1;
+  width: 30%;
+    position: fixed;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+a.contact {
+  position: fixed;
+  top: 50%;
+  left:350px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) translate(-50%, 0);
+  font-family: bretagne;
+    font-size: 2.8vw;
+}
+
+a.knit {
+  position: fixed;
+  top: 50%;
+  right: 350px;
+  transform-origin: 100% 0;
+  transform: rotate(90deg) translate(50%, 0);
+  font-family: bretagne;
+  font-size: 2.8vw;
+}
+
+a.about {
+  position: fixed;
+  bottom: 10px;
+  left: 41%;
+  transform: rotate(0deg) translate(50%, 0);
+  font-family: bretagne;
+  font-size: 2.8vw;
+}
+
+a:hover {
+  border-bottom-color: yellow;
+  color: yellow;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.5s;
+  z-index: 1;
+}
+
+--
+
+footer {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+footer div{
+    display:flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 50%;
+    background-image:url('footerbg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+font-family:bretagne;
+}
+
+.news-message a {
+    letter-spacing: 0.8px;
+    font-family:bretagne;
+}
+
+.news-message{
+    display : flex;
+    flex-shrink: 0;
+    height: 80px;
+    align-items: center;
+    font-family:bretagne;
+    animation: slide-left 60s linear infinite;
+  }
+
+footer p {
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 0.5em;
+    font-family:bretagne;
+    color: white;;
+}
+
+@keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+}

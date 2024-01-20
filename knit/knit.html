@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    <meta property="og:title" content="Maggie Liu Knits" />
+    <meta name="Description" content="maggie ✳︎ i'm really into knitting" />
+    <meta property="og:url" content="http://www.m-liu.com" />
+    <meta name="image" property="og:image" content="bg1.png" alt="logo" />
+    <title>Finished Knits</title>
+    <link rel="stylesheet" href="website.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiri|Mada|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?" />
+  </head>
+  <style>
+    html,
+    body {
+      background-color: #f2f2e8;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 4%;
+      color: #a6bed6;
+      margin: 0%;
+      padding: 5rem;
+      justify: center;
+    }
+    a {
+      color: red;
+    }
+
+    .finishedknits {
+      font-family: bretagne;
+      font-size: 3vw;
+      color: #a6bed6;
+      text-align: left;
+      margin-top: -7%;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      width: 80%;
+      height: 100%;
+      display: block;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      transition: transform 1000ms;
+      margin-bottom: 20%;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      max-width: 100%;
+      width: 70rem;
+    }
+
+    figure {
+      margin: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    figure::after {
+      content: "";
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      width: 40.2%;
+      height: 40.4%;
+      background: lightyellow;
+      transform-origin: center;
+      opacity: 0;
+      transform: scale(2);
+      transition: opacity 300ms;
+      text-align: left;
+    }
+
+    figcaption {
+      position: absolute;
+      top: -15%;
+      left: 10%;
+      width: 80%;
+      height: 100%;
+      display: flex;
+      place-items: center;
+      text-align: center;
+      padding: 1rem;
+      color: gray;
+      font-family: bretagne;
+      font-size: 0.8rem;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 600ms, transform 600ms;
+      text-align: left;
+    }
+
+    a:is(:hover, :focus) figure::after {
+      opacity: 1;
+    }
+
+    a:is(:hover, :focus) figcaption {
+      opacity: 1;
+      transition: opacity 600ms;
+    }
+  </style>
+
+  <body>
+    <section class="finishedknits">
+      <strong>Finished Knitwear</strong>
+    </section>
+
+    <div id="aboutpicture">
+      <br />
+
+      Finished knitted pieces. Hover for more details on pattern and yarn.
+      used.<br />
+
+      <br />
+    </div>
+  </body>
+  <center>
+    <ul>
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img src="chantillycardigan.png" alt="collared knit cardigan" />
+            <figcaption>
+              Pattern: Chantilly Cardigan by Penrose Knits<br /><br />Yarn:
+              Isager - Highland Wool <br /><br />
+              Collared cardigan with Mother of Pearl buttons.
+              <br /><br />
+              Finished: September 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="SmillasSleeves.png"
+              alt="honeycomb stitch knitted bolero"
+            />
+            <figcaption>
+              Pattern: Smillas Sleeves by Anne Ventzel <br /><br />Yarn:
+              Knitting for Olive - Heavy Merino Wool <br /><br />
+              A shrug cardigan knitted up in honeycomb stitch.
+              <br /><br />
+              Finished: August 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="https://i.pinimg.com/750x/02/02/b1/0202b16dcdf2ebdeab6c075bf3b50901.jpg"
+              alt="light and airy bolero shrug"
+            />
+            <figcaption>
+              Pattern: Self-made <br /><br />Yarn: Berroco Aerial (Silver) -
+              Super kid and silk mohair <br /><br />
+              A light and airy shrug made to compliment a top or dress
+              <br /><br />
+              Finished: April 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="JuneTop.png"
+              alt="June Top knitting pattern by PetiteKnit"
+            />
+            <figcaption>
+              Pattern: June Top by PetiteKnit <br /><br />Yarn: Noro Kakigori
+              (Naha) - Blend of recycled silk and cotton <br /><br />
+              I began this project on my trip to Kaua'i, Hawaii, where I also
+              enjoyed a bowl of Kakigori 🍧
+              <br /><br />
+              Finished: June 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img src="MerleTee.06.23 PM.png" alt="striped green shirt knit" />
+            <figcaption>
+              Pattern: Merle Tee by Knitting.Deer (Test Knit) <br /><br />Yarn:
+              Rowan Summerlite (Garden) - 100% Egyption cotton <br /><br />
+              A pattern tested for a knitwear designer.
+              <br /><br />
+              Finished: August 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/52/a0/f0/52a0f01edcbf691eb395f8b6062d6b7e.jpg"
+              alt="fluffy blue knit sweater"
+            />
+            <figcaption>
+              Pattern: Kelowna Sweater by Good Day, Day <br /><br />Yarn: Drops
+              Melody (Blue Jeans) - Alpaca and merino wool, Sesia Bluebell -
+              Sequin mohair <br /><br />
+              My first attempt at a top-down raglan!
+              <br /><br />
+              Finished: January 2023
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/d5/62/dd/d562dd2fe495378c395653c59ef26ad1.jpg"
+              alt="red pink checker vest"
+            />
+            <figcaption>
+              Pattern: C'est Mon Vest by Mouton Knits <br /><br />Yarn: Berroco
+              Mochi - Speckled alpaca wool <br /><br />
+              One of my favorite color pairings is burgundy + light pink
+              <br /><br />
+              Finished: December 2022
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/9b/aa/90/9baa90be1b84529d69303c36d867d2e8.jpg"
+              alt="blue and green knitted vest"
+            />
+            <figcaption>
+              Pattern: Self-made <br /><br />Yarn: Unknown brand - chunky alpaca
+              wool purchased at Atelier Yarn in SF <br /><br />
+              I saw this exact vest on pinterest and knew I had to make it.
+              <br /><br />
+              Finished: January 2022
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+
+      <li>
+        <a href="" onclick="return false">
+          <figure>
+            <img
+              src="https://i.pinimg.com/564x/c1/fd/7f/c1fd7fcdbc1c787f01ac089e7a4f2b03.jpg"
+              alt="knitted petiteknit sophie scarf"
+            />
+            <figcaption>
+              Pattern: Sophie Scarf by PetiteKnit <br /><br />Yarn: Sirdar -
+              Cashmere merino silk <br /><br />
+              Can be worn as an ascot or headband
+              <br /><br />
+              Finished: December 2022
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+    </ul>
+  </center>
+</html>
