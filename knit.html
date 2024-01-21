@@ -7,6 +7,10 @@
     <meta name="Description" content="maggie ✳︎ i'm really into knitting" />
     <meta property="og:url" content="http://www.m-liu.com" />
     <meta name="image" property="og:image" content="bg1.png" alt="logo" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0"
+    />
     <title>Finished Knits</title>
     <link rel="stylesheet" href="website.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -113,6 +117,33 @@
     a:is(:hover, :focus) figcaption {
       opacity: 1;
       transition: opacity 600ms;
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        transition: transform 1000ms;
+      }
+      figure::after {
+        width: 101%;
+        height: 43%;
+      }
+      ul,
+      .finishedknits {
+        justify-content: center;
+        text-align: center;
+      }
+      #aboutpicture {
+        text-align: left;
+        margin-left: -80%;
+        width: 300%;
+        justify-content: center;
+      }
     }
   </style>
 
